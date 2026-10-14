@@ -3604,6 +3604,1806 @@
       "latencyMs": 2785,
       "costUsd": 0.0002153,
       "raw": "{\"decision\": \"handoff\"}"
+    },
+    {
+      "ticketId": "t02",
+      "method": "chat-schema",
+      "repeat": 1,
+      "label": "refund",
+      "probability": null,
+      "latencyMs": 5363,
+      "costUsd": 0.0000907,
+      "raw": "{\"decision\": \"refund\"}"
+    },
+    {
+      "ticketId": "t04",
+      "method": "chat-schema",
+      "repeat": 1,
+      "label": "refund",
+      "probability": null,
+      "latencyMs": 5413,
+      "costUsd": 0.0001035,
+      "raw": "{\"decision\": \"refund\"}"
+    },
+    {
+      "ticketId": "t06",
+      "method": "chat-schema",
+      "repeat": 1,
+      "label": "refund",
+      "probability": null,
+      "latencyMs": 5487,
+      "costUsd": 0.0001103,
+      "raw": "{\"decision\": \"refund\"}"
+    },
+    {
+      "ticketId": "t01",
+      "method": "chat-schema",
+      "repeat": 1,
+      "label": "refund",
+      "probability": null,
+      "latencyMs": 5746,
+      "costUsd": 0.0001382,
+      "raw": "{\"decision\": \"refund\"}"
+    },
+    {
+      "ticketId": "t05",
+      "method": "chat-schema",
+      "repeat": 1,
+      "label": "handoff",
+      "probability": null,
+      "latencyMs": 5760,
+      "costUsd": 0.0001359,
+      "raw": "{\"decision\": \"handoff\"}"
+    },
+    {
+      "ticketId": "t03",
+      "method": "chat-schema",
+      "repeat": 1,
+      "label": "handoff",
+      "probability": null,
+      "latencyMs": 6097,
+      "costUsd": 0.0001672,
+      "raw": "{\"decision\": \"handoff\"}"
+    },
+    {
+      "ticketId": "t07",
+      "method": "chat-schema",
+      "repeat": 1,
+      "label": "refund",
+      "probability": null,
+      "latencyMs": 1810,
+      "costUsd": 0.0001008,
+      "raw": "{\"decision\": \"refund\"}"
+    },
+    {
+      "ticketId": "t10",
+      "method": "chat-schema",
+      "repeat": 1,
+      "label": "handoff",
+      "probability": null,
+      "latencyMs": 1647,
+      "costUsd": 0.000064,
+      "raw": "{\"decision\": \"handoff\"}"
+    },
+    {
+      "ticketId": "t11",
+      "method": "chat-schema",
+      "repeat": 1,
+      "label": "refund",
+      "probability": null,
+      "latencyMs": 2005,
+      "costUsd": 0.0001008,
+      "raw": "{\"decision\": \"refund\"}"
+    },
+    {
+      "ticketId": "t09",
+      "method": "chat-schema",
+      "repeat": 1,
+      "label": "refund",
+      "probability": null,
+      "latencyMs": 2523,
+      "costUsd": 0.0001276,
+      "raw": "{\"decision\": \"refund\"}"
+    },
+    {
+      "ticketId": "t12",
+      "method": "chat-schema",
+      "repeat": 1,
+      "label": "handoff",
+      "probability": null,
+      "latencyMs": 2274,
+      "costUsd": 0.000175,
+      "raw": "{\"decision\": \"handoff\"}"
+    },
+    {
+      "ticketId": "t08",
+      "method": "chat-schema",
+      "repeat": 1,
+      "label": "handoff",
+      "probability": null,
+      "latencyMs": 3119,
+      "costUsd": 0.0001952,
+      "raw": "{\"decision\": \"handoff\"}"
+    },
+    {
+      "ticketId": "t15",
+      "method": "chat-schema",
+      "repeat": 1,
+      "label": "handoff",
+      "probability": null,
+      "latencyMs": 1393,
+      "costUsd": 0.0001002,
+      "raw": "{\"decision\": \"handoff\"}"
+    },
+    {
+      "ticketId": "t14",
+      "method": "chat-schema",
+      "repeat": 1,
+      "label": "refund",
+      "probability": null,
+      "latencyMs": 1916,
+      "costUsd": 0.0001238,
+      "raw": "{\"decision\": \"refund\"}"
+    },
+    {
+      "ticketId": "t13",
+      "method": "chat-schema",
+      "repeat": 1,
+      "label": "handoff",
+      "probability": null,
+      "latencyMs": 2412,
+      "costUsd": 0.000183,
+      "raw": "{\"decision\": \"handoff\"}"
+    },
+    {
+      "ticketId": "t17",
+      "method": "chat-schema",
+      "repeat": 1,
+      "label": "refund",
+      "probability": null,
+      "latencyMs": 1830,
+      "costUsd": 0.0001128,
+      "raw": "{\"decision\": \"refund\"}"
+    },
+    {
+      "ticketId": "t16",
+      "method": "chat-schema",
+      "repeat": 1,
+      "label": "refund",
+      "probability": null,
+      "latencyMs": 2508,
+      "costUsd": 0.0001318,
+      "raw": "{\"decision\": \"refund\"}"
+    },
+    {
+      "ticketId": "t18",
+      "method": "chat-schema",
+      "repeat": 1,
+      "label": "handoff",
+      "probability": null,
+      "latencyMs": 2210,
+      "costUsd": 0.0001722,
+      "raw": "{\"decision\": \"handoff\"}"
+    },
+    {
+      "ticketId": "t20",
+      "method": "chat-schema",
+      "repeat": 1,
+      "label": "handoff",
+      "probability": null,
+      "latencyMs": 1703,
+      "costUsd": 0.0000989,
+      "raw": "{\"decision\": \"handoff\"}"
+    },
+    {
+      "ticketId": "t21",
+      "method": "chat-schema",
+      "repeat": 1,
+      "label": "refund",
+      "probability": null,
+      "latencyMs": 1984,
+      "costUsd": 0.0001085,
+      "raw": "{\"decision\": \"refund\"}"
+    },
+    {
+      "ticketId": "t19",
+      "method": "chat-schema",
+      "repeat": 1,
+      "label": "handoff",
+      "probability": null,
+      "latencyMs": 2706,
+      "costUsd": 0.0001403,
+      "raw": "{\"decision\": \"handoff\"}"
+    },
+    {
+      "ticketId": "t23",
+      "method": "chat-schema",
+      "repeat": 1,
+      "label": "handoff",
+      "probability": null,
+      "latencyMs": 2370,
+      "costUsd": 0.00015,
+      "raw": "{\"decision\": \"handoff\"}"
+    },
+    {
+      "ticketId": "t24",
+      "method": "chat-schema",
+      "repeat": 1,
+      "label": "handoff",
+      "probability": null,
+      "latencyMs": 2576,
+      "costUsd": 0.0002009,
+      "raw": "{\"decision\": \"handoff\"}"
+    },
+    {
+      "ticketId": "t22",
+      "method": "chat-schema",
+      "repeat": 1,
+      "label": "handoff",
+      "probability": null,
+      "latencyMs": 3383,
+      "costUsd": 0.0001637,
+      "raw": "{\"decision\": \"handoff\"}"
+    },
+    {
+      "ticketId": "t27",
+      "method": "chat-schema",
+      "repeat": 1,
+      "label": "refund",
+      "probability": null,
+      "latencyMs": 1875,
+      "costUsd": 0.000102,
+      "raw": "{\"decision\": \"refund\"}"
+    },
+    {
+      "ticketId": "t26",
+      "method": "chat-schema",
+      "repeat": 1,
+      "label": "handoff",
+      "probability": null,
+      "latencyMs": 2998,
+      "costUsd": 0.0001695,
+      "raw": "{\"decision\": \"handoff\"}"
+    },
+    {
+      "ticketId": "t29",
+      "method": "chat-schema",
+      "repeat": 1,
+      "label": "refund",
+      "probability": null,
+      "latencyMs": 1870,
+      "costUsd": 0.0000939,
+      "raw": "{\"decision\": \"refund\"}"
+    },
+    {
+      "ticketId": "t28",
+      "method": "chat-schema",
+      "repeat": 1,
+      "label": "handoff",
+      "probability": null,
+      "latencyMs": 2435,
+      "costUsd": 0.0001694,
+      "raw": "{\"decision\": \"handoff\"}"
+    },
+    {
+      "ticketId": "t30",
+      "method": "chat-schema",
+      "repeat": 1,
+      "label": "handoff",
+      "probability": null,
+      "latencyMs": 2088,
+      "costUsd": 0.0001323,
+      "raw": "{\"decision\": \"handoff\"}"
+    },
+    {
+      "ticketId": "t31",
+      "method": "chat-schema",
+      "repeat": 1,
+      "label": "handoff",
+      "probability": null,
+      "latencyMs": 2218,
+      "costUsd": 0.000183,
+      "raw": "{\"decision\": \"handoff\"}"
+    },
+    {
+      "ticketId": "t32",
+      "method": "chat-schema",
+      "repeat": 1,
+      "label": "refund",
+      "probability": null,
+      "latencyMs": 1716,
+      "costUsd": 0.0001044,
+      "raw": "{\"decision\": \"refund\"}"
+    },
+    {
+      "ticketId": "t35",
+      "method": "chat-schema",
+      "repeat": 1,
+      "label": "handoff",
+      "probability": null,
+      "latencyMs": 1582,
+      "costUsd": 0.0000963,
+      "raw": "{\"decision\": \"handoff\"}"
+    },
+    {
+      "ticketId": "t33",
+      "method": "chat-schema",
+      "repeat": 1,
+      "label": "handoff",
+      "probability": null,
+      "latencyMs": 2429,
+      "costUsd": 0.0001637,
+      "raw": "{\"decision\": \"handoff\"}"
+    },
+    {
+      "ticketId": "t34",
+      "method": "chat-schema",
+      "repeat": 1,
+      "label": "handoff",
+      "probability": null,
+      "latencyMs": 2314,
+      "costUsd": 0.0001661,
+      "raw": "{\"decision\": \"handoff\"}"
+    },
+    {
+      "ticketId": "t25",
+      "method": "chat-schema",
+      "repeat": 1,
+      "label": "handoff",
+      "probability": null,
+      "latencyMs": 6882,
+      "costUsd": 0.0001517,
+      "raw": "{\"decision\": \"handoff\"}"
+    },
+    {
+      "ticketId": "t36",
+      "method": "chat-schema",
+      "repeat": 1,
+      "label": "refund",
+      "probability": null,
+      "latencyMs": 2305,
+      "costUsd": 0.0001265,
+      "raw": "{\"decision\": \"refund\"}"
+    },
+    {
+      "ticketId": "t37",
+      "method": "chat-schema",
+      "repeat": 1,
+      "label": "handoff",
+      "probability": null,
+      "latencyMs": 2194,
+      "costUsd": 0.000162,
+      "raw": "{\"decision\": \"handoff\"}"
+    },
+    {
+      "ticketId": "t38",
+      "method": "chat-schema",
+      "repeat": 1,
+      "label": "handoff",
+      "probability": null,
+      "latencyMs": 1953,
+      "costUsd": 0.0001677,
+      "raw": "{\"decision\": \"handoff\"}"
+    },
+    {
+      "ticketId": "t40",
+      "method": "chat-schema",
+      "repeat": 1,
+      "label": "handoff",
+      "probability": null,
+      "latencyMs": 1776,
+      "costUsd": 0.0001025,
+      "raw": "{\"decision\": \"handoff\"}"
+    },
+    {
+      "ticketId": "t39",
+      "method": "chat-schema",
+      "repeat": 1,
+      "label": "handoff",
+      "probability": null,
+      "latencyMs": 2164,
+      "costUsd": 0.0001533,
+      "raw": "{\"decision\": \"handoff\"}"
+    },
+    {
+      "ticketId": "t43",
+      "method": "chat-schema",
+      "repeat": 1,
+      "label": "handoff",
+      "probability": null,
+      "latencyMs": 1606,
+      "costUsd": 0.0001451,
+      "raw": "{\"decision\": \"handoff\"}"
+    },
+    {
+      "ticketId": "t41",
+      "method": "chat-schema",
+      "repeat": 1,
+      "label": "handoff",
+      "probability": null,
+      "latencyMs": 2234,
+      "costUsd": 0.0001655,
+      "raw": "{\"decision\": \"handoff\"}"
+    },
+    {
+      "ticketId": "t42",
+      "method": "chat-schema",
+      "repeat": 1,
+      "label": "handoff",
+      "probability": null,
+      "latencyMs": 2396,
+      "costUsd": 0.0001944,
+      "raw": "{\"decision\": \"handoff\"}"
+    },
+    {
+      "ticketId": "t44",
+      "method": "chat-schema",
+      "repeat": 1,
+      "label": "refund",
+      "probability": null,
+      "latencyMs": 1848,
+      "costUsd": 0.0001204,
+      "raw": "{\"decision\": \"refund\"}"
+    },
+    {
+      "ticketId": "t45",
+      "method": "chat-schema",
+      "repeat": 1,
+      "label": "handoff",
+      "probability": null,
+      "latencyMs": 1744,
+      "costUsd": 0.0000963,
+      "raw": "{\"decision\": \"handoff\"}"
+    },
+    {
+      "ticketId": "t48",
+      "method": "chat-schema",
+      "repeat": 1,
+      "label": "handoff",
+      "probability": null,
+      "latencyMs": 1538,
+      "costUsd": 0.0000656,
+      "raw": "{\"decision\": \"handoff\"}"
+    },
+    {
+      "ticketId": "t46",
+      "method": "chat-schema",
+      "repeat": 1,
+      "label": "refund",
+      "probability": null,
+      "latencyMs": 1988,
+      "costUsd": 0.000108,
+      "raw": "{\"decision\": \"refund\"}"
+    },
+    {
+      "ticketId": "t47",
+      "method": "chat-schema",
+      "repeat": 1,
+      "label": "refund",
+      "probability": null,
+      "latencyMs": 1792,
+      "costUsd": 0.0001035,
+      "raw": "{\"decision\": \"refund\"}"
+    },
+    {
+      "ticketId": "x02",
+      "method": "chat-schema",
+      "repeat": 1,
+      "label": "handoff",
+      "probability": null,
+      "latencyMs": 1243,
+      "costUsd": 0.0000903,
+      "raw": "{\"decision\": \"handoff\"}"
+    },
+    {
+      "ticketId": "x01",
+      "method": "chat-schema",
+      "repeat": 1,
+      "label": "refund",
+      "probability": null,
+      "latencyMs": 2162,
+      "costUsd": 0.0001365,
+      "raw": "{\"decision\": \"refund\"}"
+    },
+    {
+      "ticketId": "x04",
+      "method": "chat-schema",
+      "repeat": 1,
+      "label": "refund",
+      "probability": null,
+      "latencyMs": 1433,
+      "costUsd": 0.0001004,
+      "raw": "{\"decision\": \"refund\"}"
+    },
+    {
+      "ticketId": "x06",
+      "method": "chat-schema",
+      "repeat": 1,
+      "label": "handoff",
+      "probability": null,
+      "latencyMs": 1494,
+      "costUsd": 0.0000635,
+      "raw": "{\"decision\": \"handoff\"}"
+    },
+    {
+      "ticketId": "x03",
+      "method": "chat-schema",
+      "repeat": 1,
+      "label": "handoff",
+      "probability": null,
+      "latencyMs": 2507,
+      "costUsd": 0.0002001,
+      "raw": "{\"decision\": \"handoff\"}"
+    },
+    {
+      "ticketId": "x10",
+      "method": "chat-schema",
+      "repeat": 1,
+      "label": "handoff",
+      "probability": null,
+      "latencyMs": 1349,
+      "costUsd": 0.0000641,
+      "raw": "{\"decision\": \"handoff\"}"
+    },
+    {
+      "ticketId": "x08",
+      "method": "chat-schema",
+      "repeat": 1,
+      "label": "refund",
+      "probability": null,
+      "latencyMs": 2015,
+      "costUsd": 0.0001232,
+      "raw": "{\"decision\": \"refund\"}"
+    },
+    {
+      "ticketId": "x07",
+      "method": "chat-schema",
+      "repeat": 1,
+      "label": "handoff",
+      "probability": null,
+      "latencyMs": 2765,
+      "costUsd": 0.0001873,
+      "raw": "{\"decision\": \"handoff\"}"
+    },
+    {
+      "ticketId": "x11",
+      "method": "chat-schema",
+      "repeat": 1,
+      "label": "handoff",
+      "probability": null,
+      "latencyMs": 2368,
+      "costUsd": 0.0001568,
+      "raw": "{\"decision\": \"handoff\"}"
+    },
+    {
+      "ticketId": "x09",
+      "method": "chat-schema",
+      "repeat": 1,
+      "label": "refund",
+      "probability": null,
+      "latencyMs": 3299,
+      "costUsd": 0.0002601,
+      "raw": "{\"decision\": \"refund\"}"
+    },
+    {
+      "ticketId": "t01",
+      "method": "chat-schema",
+      "repeat": 2,
+      "label": "refund",
+      "probability": null,
+      "latencyMs": 1936,
+      "costUsd": 0.0000972,
+      "raw": "{\"decision\": \"refund\"}"
+    },
+    {
+      "ticketId": "t02",
+      "method": "chat-schema",
+      "repeat": 2,
+      "label": "refund",
+      "probability": null,
+      "latencyMs": 1810,
+      "costUsd": 0.0001007,
+      "raw": "{\"decision\": \"refund\"}"
+    },
+    {
+      "ticketId": "x12",
+      "method": "chat-schema",
+      "repeat": 1,
+      "label": "handoff",
+      "probability": null,
+      "latencyMs": 2998,
+      "costUsd": 0.0001777,
+      "raw": "{\"decision\": \"handoff\"}"
+    },
+    {
+      "ticketId": "t03",
+      "method": "chat-schema",
+      "repeat": 2,
+      "label": "handoff",
+      "probability": null,
+      "latencyMs": 1929,
+      "costUsd": 0.0001992,
+      "raw": "{\"decision\": \"handoff\"}"
+    },
+    {
+      "ticketId": "t04",
+      "method": "chat-schema",
+      "repeat": 2,
+      "label": "refund",
+      "probability": null,
+      "latencyMs": 1863,
+      "costUsd": 0.000108,
+      "raw": "{\"decision\": \"refund\"}"
+    },
+    {
+      "ticketId": "t06",
+      "method": "chat-schema",
+      "repeat": 2,
+      "label": "refund",
+      "probability": null,
+      "latencyMs": 1792,
+      "costUsd": 0.0000963,
+      "raw": "{\"decision\": \"refund\"}"
+    },
+    {
+      "ticketId": "t07",
+      "method": "chat-schema",
+      "repeat": 2,
+      "label": "refund",
+      "probability": null,
+      "latencyMs": 1716,
+      "costUsd": 0.0001003,
+      "raw": "{\"decision\": \"refund\"}"
+    },
+    {
+      "ticketId": "t08",
+      "method": "chat-schema",
+      "repeat": 2,
+      "label": "handoff",
+      "probability": null,
+      "latencyMs": 2035,
+      "costUsd": 0.0001612,
+      "raw": "{\"decision\": \"handoff\"}"
+    },
+    {
+      "ticketId": "t09",
+      "method": "chat-schema",
+      "repeat": 2,
+      "label": "refund",
+      "probability": null,
+      "latencyMs": 1804,
+      "costUsd": 0.0001061,
+      "raw": "{\"decision\": \"refund\"}"
+    },
+    {
+      "ticketId": "t10",
+      "method": "chat-schema",
+      "repeat": 2,
+      "label": "handoff",
+      "probability": null,
+      "latencyMs": 2082,
+      "costUsd": 0.0001305,
+      "raw": "{\"decision\": \"handoff\"}"
+    },
+    {
+      "ticketId": "t11",
+      "method": "chat-schema",
+      "repeat": 2,
+      "label": "refund",
+      "probability": null,
+      "latencyMs": 1448,
+      "costUsd": 0.0001023,
+      "raw": "{\"decision\": \"refund\"}"
+    },
+    {
+      "ticketId": "t12",
+      "method": "chat-schema",
+      "repeat": 2,
+      "label": "handoff",
+      "probability": null,
+      "latencyMs": 2235,
+      "costUsd": 0.0001555,
+      "raw": "{\"decision\": \"handoff\"}"
+    },
+    {
+      "ticketId": "t15",
+      "method": "chat-schema",
+      "repeat": 2,
+      "label": "handoff",
+      "probability": null,
+      "latencyMs": 1520,
+      "costUsd": 0.0000972,
+      "raw": "{\"decision\": \"handoff\"}"
+    },
+    {
+      "ticketId": "t13",
+      "method": "chat-schema",
+      "repeat": 2,
+      "label": "handoff",
+      "probability": null,
+      "latencyMs": 2627,
+      "costUsd": 0.0001775,
+      "raw": "{\"decision\": \"handoff\"}"
+    },
+    {
+      "ticketId": "t14",
+      "method": "chat-schema",
+      "repeat": 2,
+      "label": "refund",
+      "probability": null,
+      "latencyMs": 2088,
+      "costUsd": 0.0001228,
+      "raw": "{\"decision\": \"refund\"}"
+    },
+    {
+      "ticketId": "t17",
+      "method": "chat-schema",
+      "repeat": 2,
+      "label": "refund",
+      "probability": null,
+      "latencyMs": 1634,
+      "costUsd": 0.0001048,
+      "raw": "{\"decision\": \"refund\"}"
+    },
+    {
+      "ticketId": "t16",
+      "method": "chat-schema",
+      "repeat": 2,
+      "label": "refund",
+      "probability": null,
+      "latencyMs": 1839,
+      "costUsd": 0.0001113,
+      "raw": "{\"decision\": \"refund\"}"
+    },
+    {
+      "ticketId": "t18",
+      "method": "chat-schema",
+      "repeat": 2,
+      "label": "handoff",
+      "probability": null,
+      "latencyMs": 2386,
+      "costUsd": 0.0001872,
+      "raw": "{\"decision\": \"handoff\"}"
+    },
+    {
+      "ticketId": "x05",
+      "method": "chat-schema",
+      "repeat": 1,
+      "label": "handoff",
+      "probability": null,
+      "latencyMs": 13467,
+      "costUsd": 0.0001694,
+      "raw": "{\"decision\": \"handoff\"}"
+    },
+    {
+      "ticketId": "t19",
+      "method": "chat-schema",
+      "repeat": 2,
+      "label": "handoff",
+      "probability": null,
+      "latencyMs": 2660,
+      "costUsd": 0.0001698,
+      "raw": "{\"decision\": \"handoff\"}"
+    },
+    {
+      "ticketId": "t20",
+      "method": "chat-schema",
+      "repeat": 2,
+      "label": "handoff",
+      "probability": null,
+      "latencyMs": 1528,
+      "costUsd": 0.0001024,
+      "raw": "{\"decision\": \"handoff\"}"
+    },
+    {
+      "ticketId": "t05",
+      "method": "chat-schema",
+      "repeat": 2,
+      "label": "handoff",
+      "probability": null,
+      "latencyMs": 9075,
+      "costUsd": 0.0001274,
+      "raw": "{\"decision\": \"handoff\"}"
+    },
+    {
+      "ticketId": "t21",
+      "method": "chat-schema",
+      "repeat": 2,
+      "label": "refund",
+      "probability": null,
+      "latencyMs": 2149,
+      "costUsd": 0.0001015,
+      "raw": "{\"decision\": \"refund\"}"
+    },
+    {
+      "ticketId": "t23",
+      "method": "chat-schema",
+      "repeat": 2,
+      "label": "handoff",
+      "probability": null,
+      "latencyMs": 2260,
+      "costUsd": 0.000169,
+      "raw": "{\"decision\": \"handoff\"}"
+    },
+    {
+      "ticketId": "t26",
+      "method": "chat-schema",
+      "repeat": 2,
+      "label": "handoff",
+      "probability": null,
+      "latencyMs": 1696,
+      "costUsd": 0.0001395,
+      "raw": "{\"decision\": \"handoff\"}"
+    },
+    {
+      "ticketId": "t22",
+      "method": "chat-schema",
+      "repeat": 2,
+      "label": "handoff",
+      "probability": null,
+      "latencyMs": 2546,
+      "costUsd": 0.0001677,
+      "raw": "{\"decision\": \"handoff\"}"
+    },
+    {
+      "ticketId": "t24",
+      "method": "chat-schema",
+      "repeat": 2,
+      "label": "handoff",
+      "probability": null,
+      "latencyMs": 2793,
+      "costUsd": 0.0002169,
+      "raw": "{\"decision\": \"handoff\"}"
+    },
+    {
+      "ticketId": "t27",
+      "method": "chat-schema",
+      "repeat": 2,
+      "label": "refund",
+      "probability": null,
+      "latencyMs": 2090,
+      "costUsd": 0.0000985,
+      "raw": "{\"decision\": \"refund\"}"
+    },
+    {
+      "ticketId": "t29",
+      "method": "chat-schema",
+      "repeat": 2,
+      "label": "refund",
+      "probability": null,
+      "latencyMs": 1672,
+      "costUsd": 0.0000899,
+      "raw": "{\"decision\": \"refund\"}"
+    },
+    {
+      "ticketId": "t30",
+      "method": "chat-schema",
+      "repeat": 2,
+      "label": "handoff",
+      "probability": null,
+      "latencyMs": 2032,
+      "costUsd": 0.0001398,
+      "raw": "{\"decision\": \"handoff\"}"
+    },
+    {
+      "ticketId": "t32",
+      "method": "chat-schema",
+      "repeat": 2,
+      "label": "refund",
+      "probability": null,
+      "latencyMs": 1761,
+      "costUsd": 0.0001044,
+      "raw": "{\"decision\": \"refund\"}"
+    },
+    {
+      "ticketId": "t28",
+      "method": "chat-schema",
+      "repeat": 2,
+      "label": "handoff",
+      "probability": null,
+      "latencyMs": 3002,
+      "costUsd": 0.0001869,
+      "raw": "{\"decision\": \"handoff\"}"
+    },
+    {
+      "ticketId": "t31",
+      "method": "chat-schema",
+      "repeat": 2,
+      "label": "handoff",
+      "probability": null,
+      "latencyMs": 2283,
+      "costUsd": 0.0001535,
+      "raw": "{\"decision\": \"handoff\"}"
+    },
+    {
+      "ticketId": "t25",
+      "method": "chat-schema",
+      "repeat": 2,
+      "label": "handoff",
+      "probability": null,
+      "latencyMs": 5792,
+      "costUsd": 0.0001877,
+      "raw": "{\"decision\": \"handoff\"}"
+    },
+    {
+      "ticketId": "t33",
+      "method": "chat-schema",
+      "repeat": 2,
+      "label": "handoff",
+      "probability": null,
+      "latencyMs": 2244,
+      "costUsd": 0.0001362,
+      "raw": "{\"decision\": \"handoff\"}"
+    },
+    {
+      "ticketId": "t35",
+      "method": "chat-schema",
+      "repeat": 2,
+      "label": "handoff",
+      "probability": null,
+      "latencyMs": 1638,
+      "costUsd": 0.0001018,
+      "raw": "{\"decision\": \"handoff\"}"
+    },
+    {
+      "ticketId": "t34",
+      "method": "chat-schema",
+      "repeat": 2,
+      "label": "handoff",
+      "probability": null,
+      "latencyMs": 2162,
+      "costUsd": 0.0001711,
+      "raw": "{\"decision\": \"handoff\"}"
+    },
+    {
+      "ticketId": "t36",
+      "method": "chat-schema",
+      "repeat": 2,
+      "label": "refund",
+      "probability": null,
+      "latencyMs": 2143,
+      "costUsd": 0.000113,
+      "raw": "{\"decision\": \"refund\"}"
+    },
+    {
+      "ticketId": "t37",
+      "method": "chat-schema",
+      "repeat": 2,
+      "label": "handoff",
+      "probability": null,
+      "latencyMs": 2179,
+      "costUsd": 0.000146,
+      "raw": "{\"decision\": \"handoff\"}"
+    },
+    {
+      "ticketId": "t41",
+      "method": "chat-schema",
+      "repeat": 2,
+      "label": "handoff",
+      "probability": null,
+      "latencyMs": 1728,
+      "costUsd": 0.000134,
+      "raw": "{\"decision\": \"handoff\"}"
+    },
+    {
+      "ticketId": "t39",
+      "method": "chat-schema",
+      "repeat": 2,
+      "label": "handoff",
+      "probability": null,
+      "latencyMs": 2044,
+      "costUsd": 0.0001533,
+      "raw": "{\"decision\": \"handoff\"}"
+    },
+    {
+      "ticketId": "t40",
+      "method": "chat-schema",
+      "repeat": 2,
+      "label": "handoff",
+      "probability": null,
+      "latencyMs": 1802,
+      "costUsd": 0.0000975,
+      "raw": "{\"decision\": \"handoff\"}"
+    },
+    {
+      "ticketId": "t38",
+      "method": "chat-schema",
+      "repeat": 2,
+      "label": "handoff",
+      "probability": null,
+      "latencyMs": 2377,
+      "costUsd": 0.0001867,
+      "raw": "{\"decision\": \"handoff\"}"
+    },
+    {
+      "ticketId": "t42",
+      "method": "chat-schema",
+      "repeat": 2,
+      "label": "handoff",
+      "probability": null,
+      "latencyMs": 1331,
+      "costUsd": 0.0000654,
+      "raw": "{\"decision\": \"handoff\"}"
+    },
+    {
+      "ticketId": "t43",
+      "method": "chat-schema",
+      "repeat": 2,
+      "label": "handoff",
+      "probability": null,
+      "latencyMs": 1857,
+      "costUsd": 0.0001791,
+      "raw": "{\"decision\": \"handoff\"}"
+    },
+    {
+      "ticketId": "t45",
+      "method": "chat-schema",
+      "repeat": 2,
+      "label": "handoff",
+      "probability": null,
+      "latencyMs": 1232,
+      "costUsd": 0.0000933,
+      "raw": "{\"decision\": \"handoff\"}"
+    },
+    {
+      "ticketId": "t44",
+      "method": "chat-schema",
+      "repeat": 2,
+      "label": "refund",
+      "probability": null,
+      "latencyMs": 1728,
+      "costUsd": 0.0001034,
+      "raw": "{\"decision\": \"refund\"}"
+    },
+    {
+      "ticketId": "t46",
+      "method": "chat-schema",
+      "repeat": 2,
+      "label": "refund",
+      "probability": null,
+      "latencyMs": 1997,
+      "costUsd": 0.000111,
+      "raw": "{\"decision\": \"refund\"}"
+    },
+    {
+      "ticketId": "t47",
+      "method": "chat-schema",
+      "repeat": 2,
+      "label": "refund",
+      "probability": null,
+      "latencyMs": 1914,
+      "costUsd": 0.0001275,
+      "raw": "{\"decision\": \"refund\"}"
+    },
+    {
+      "ticketId": "t48",
+      "method": "chat-schema",
+      "repeat": 2,
+      "label": "handoff",
+      "probability": null,
+      "latencyMs": 1711,
+      "costUsd": 0.0001391,
+      "raw": "{\"decision\": \"handoff\"}"
+    },
+    {
+      "ticketId": "x02",
+      "method": "chat-schema",
+      "repeat": 2,
+      "label": "handoff",
+      "probability": null,
+      "latencyMs": 1867,
+      "costUsd": 0.0000983,
+      "raw": "{\"decision\": \"handoff\"}"
+    },
+    {
+      "ticketId": "x06",
+      "method": "chat-schema",
+      "repeat": 2,
+      "label": "handoff",
+      "probability": null,
+      "latencyMs": 1119,
+      "costUsd": 0.0000635,
+      "raw": "{\"decision\": \"handoff\"}"
+    },
+    {
+      "ticketId": "x01",
+      "method": "chat-schema",
+      "repeat": 2,
+      "label": "refund",
+      "probability": null,
+      "latencyMs": 2222,
+      "costUsd": 0.0001165,
+      "raw": "{\"decision\": \"refund\"}"
+    },
+    {
+      "ticketId": "x04",
+      "method": "chat-schema",
+      "repeat": 2,
+      "label": "refund",
+      "probability": null,
+      "latencyMs": 1717,
+      "costUsd": 0.0001064,
+      "raw": "{\"decision\": \"refund\"}"
+    },
+    {
+      "ticketId": "x03",
+      "method": "chat-schema",
+      "repeat": 2,
+      "label": "handoff",
+      "probability": null,
+      "latencyMs": 2506,
+      "costUsd": 0.0002086,
+      "raw": "{\"decision\": \"handoff\"}"
+    },
+    {
+      "ticketId": "x10",
+      "method": "chat-schema",
+      "repeat": 2,
+      "label": "handoff",
+      "probability": null,
+      "latencyMs": 1000,
+      "costUsd": 0.0000641,
+      "raw": "{\"decision\": \"handoff\"}"
+    },
+    {
+      "ticketId": "x05",
+      "method": "chat-schema",
+      "repeat": 2,
+      "label": "handoff",
+      "probability": null,
+      "latencyMs": 2607,
+      "costUsd": 0.0001939,
+      "raw": "{\"decision\": \"handoff\"}"
+    },
+    {
+      "ticketId": "x08",
+      "method": "chat-schema",
+      "repeat": 2,
+      "label": "refund",
+      "probability": null,
+      "latencyMs": 1985,
+      "costUsd": 0.0001562,
+      "raw": "{\"decision\": \"refund\"}"
+    },
+    {
+      "ticketId": "x09",
+      "method": "chat-schema",
+      "repeat": 2,
+      "label": "refund",
+      "probability": null,
+      "latencyMs": 2016,
+      "costUsd": 0.0001376,
+      "raw": "{\"decision\": \"refund\"}"
+    },
+    {
+      "ticketId": "x07",
+      "method": "chat-schema",
+      "repeat": 2,
+      "label": "handoff",
+      "probability": null,
+      "latencyMs": 2495,
+      "costUsd": 0.0001703,
+      "raw": "{\"decision\": \"handoff\"}"
+    },
+    {
+      "ticketId": "x11",
+      "method": "chat-schema",
+      "repeat": 2,
+      "label": "handoff",
+      "probability": null,
+      "latencyMs": 2212,
+      "costUsd": 0.0001588,
+      "raw": "{\"decision\": \"handoff\"}"
+    },
+    {
+      "ticketId": "t01",
+      "method": "chat-schema",
+      "repeat": 3,
+      "label": "refund",
+      "probability": null,
+      "latencyMs": 1822,
+      "costUsd": 0.0001002,
+      "raw": "{\"decision\": \"refund\"}"
+    },
+    {
+      "ticketId": "t02",
+      "method": "chat-schema",
+      "repeat": 3,
+      "label": "refund",
+      "probability": null,
+      "latencyMs": 1835,
+      "costUsd": 0.0001042,
+      "raw": "{\"decision\": \"refund\"}"
+    },
+    {
+      "ticketId": "x12",
+      "method": "chat-schema",
+      "repeat": 2,
+      "label": "handoff",
+      "probability": null,
+      "latencyMs": 2543,
+      "costUsd": 0.0001807,
+      "raw": "{\"decision\": \"handoff\"}"
+    },
+    {
+      "ticketId": "t04",
+      "method": "chat-schema",
+      "repeat": 3,
+      "label": "refund",
+      "probability": null,
+      "latencyMs": 1721,
+      "costUsd": 0.000101,
+      "raw": "{\"decision\": \"refund\"}"
+    },
+    {
+      "ticketId": "t03",
+      "method": "chat-schema",
+      "repeat": 3,
+      "label": "handoff",
+      "probability": null,
+      "latencyMs": 2619,
+      "costUsd": 0.0001912,
+      "raw": "{\"decision\": \"handoff\"}"
+    },
+    {
+      "ticketId": "t06",
+      "method": "chat-schema",
+      "repeat": 3,
+      "label": "refund",
+      "probability": null,
+      "latencyMs": 1755,
+      "costUsd": 0.0001353,
+      "raw": "{\"decision\": \"refund\"}"
+    },
+    {
+      "ticketId": "t05",
+      "method": "chat-schema",
+      "repeat": 3,
+      "label": "handoff",
+      "probability": null,
+      "latencyMs": 2088,
+      "costUsd": 0.0001369,
+      "raw": "{\"decision\": \"handoff\"}"
+    },
+    {
+      "ticketId": "t09",
+      "method": "chat-schema",
+      "repeat": 3,
+      "label": "refund",
+      "probability": null,
+      "latencyMs": 1516,
+      "costUsd": 0.0001071,
+      "raw": "{\"decision\": \"refund\"}"
+    },
+    {
+      "ticketId": "t07",
+      "method": "chat-schema",
+      "repeat": 3,
+      "label": "refund",
+      "probability": null,
+      "latencyMs": 1713,
+      "costUsd": 0.0000988,
+      "raw": "{\"decision\": \"refund\"}"
+    },
+    {
+      "ticketId": "t08",
+      "method": "chat-schema",
+      "repeat": 3,
+      "label": "handoff",
+      "probability": null,
+      "latencyMs": 2138,
+      "costUsd": 0.0001692,
+      "raw": "{\"decision\": \"handoff\"}"
+    },
+    {
+      "ticketId": "t10",
+      "method": "chat-schema",
+      "repeat": 3,
+      "label": "handoff",
+      "probability": null,
+      "latencyMs": 1544,
+      "costUsd": 0.000064,
+      "raw": "{\"decision\": \"handoff\"}"
+    },
+    {
+      "ticketId": "t11",
+      "method": "chat-schema",
+      "repeat": 3,
+      "label": "refund",
+      "probability": null,
+      "latencyMs": 2049,
+      "costUsd": 0.0001073,
+      "raw": "{\"decision\": \"refund\"}"
+    },
+    {
+      "ticketId": "t14",
+      "method": "chat-schema",
+      "repeat": 3,
+      "label": "refund",
+      "probability": null,
+      "latencyMs": 1600,
+      "costUsd": 0.0001138,
+      "raw": "{\"decision\": \"refund\"}"
+    },
+    {
+      "ticketId": "t12",
+      "method": "chat-schema",
+      "repeat": 3,
+      "label": "handoff",
+      "probability": null,
+      "latencyMs": 2162,
+      "costUsd": 0.000155,
+      "raw": "{\"decision\": \"handoff\"}"
+    },
+    {
+      "ticketId": "t15",
+      "method": "chat-schema",
+      "repeat": 3,
+      "label": "handoff",
+      "probability": null,
+      "latencyMs": 1646,
+      "costUsd": 0.0000967,
+      "raw": "{\"decision\": \"handoff\"}"
+    },
+    {
+      "ticketId": "t16",
+      "method": "chat-schema",
+      "repeat": 3,
+      "label": "refund",
+      "probability": null,
+      "latencyMs": 1565,
+      "costUsd": 0.0001108,
+      "raw": "{\"decision\": \"refund\"}"
+    },
+    {
+      "ticketId": "t13",
+      "method": "chat-schema",
+      "repeat": 3,
+      "label": "handoff",
+      "probability": null,
+      "latencyMs": 2381,
+      "costUsd": 0.0001645,
+      "raw": "{\"decision\": \"handoff\"}"
+    },
+    {
+      "ticketId": "t17",
+      "method": "chat-schema",
+      "repeat": 3,
+      "label": "refund",
+      "probability": null,
+      "latencyMs": 2113,
+      "costUsd": 0.0001328,
+      "raw": "{\"decision\": \"refund\"}"
+    },
+    {
+      "ticketId": "t20",
+      "method": "chat-schema",
+      "repeat": 3,
+      "label": "handoff",
+      "probability": null,
+      "latencyMs": 1456,
+      "costUsd": 0.0001064,
+      "raw": "{\"decision\": \"handoff\"}"
+    },
+    {
+      "ticketId": "t21",
+      "method": "chat-schema",
+      "repeat": 3,
+      "label": "refund",
+      "probability": null,
+      "latencyMs": 1451,
+      "costUsd": 0.0001105,
+      "raw": "{\"decision\": \"refund\"}"
+    },
+    {
+      "ticketId": "t18",
+      "method": "chat-schema",
+      "repeat": 3,
+      "label": "handoff",
+      "probability": null,
+      "latencyMs": 2345,
+      "costUsd": 0.0001812,
+      "raw": "{\"decision\": \"handoff\"}"
+    },
+    {
+      "ticketId": "t19",
+      "method": "chat-schema",
+      "repeat": 3,
+      "label": "handoff",
+      "probability": null,
+      "latencyMs": 2465,
+      "costUsd": 0.0001653,
+      "raw": "{\"decision\": \"handoff\"}"
+    },
+    {
+      "ticketId": "t22",
+      "method": "chat-schema",
+      "repeat": 3,
+      "label": "handoff",
+      "probability": null,
+      "latencyMs": 2262,
+      "costUsd": 0.0001582,
+      "raw": "{\"decision\": \"handoff\"}"
+    },
+    {
+      "ticketId": "t23",
+      "method": "chat-schema",
+      "repeat": 3,
+      "label": "handoff",
+      "probability": null,
+      "latencyMs": 1980,
+      "costUsd": 0.0001405,
+      "raw": "{\"decision\": \"handoff\"}"
+    },
+    {
+      "ticketId": "t25",
+      "method": "chat-schema",
+      "repeat": 3,
+      "label": "handoff",
+      "probability": null,
+      "latencyMs": 2061,
+      "costUsd": 0.0001327,
+      "raw": "{\"decision\": \"handoff\"}"
+    },
+    {
+      "ticketId": "t24",
+      "method": "chat-schema",
+      "repeat": 3,
+      "label": "handoff",
+      "probability": null,
+      "latencyMs": 2266,
+      "costUsd": 0.0001794,
+      "raw": "{\"decision\": \"handoff\"}"
+    },
+    {
+      "ticketId": "t27",
+      "method": "chat-schema",
+      "repeat": 3,
+      "label": "refund",
+      "probability": null,
+      "latencyMs": 1704,
+      "costUsd": 0.000098,
+      "raw": "{\"decision\": \"refund\"}"
+    },
+    {
+      "ticketId": "t26",
+      "method": "chat-schema",
+      "repeat": 3,
+      "label": "handoff",
+      "probability": null,
+      "latencyMs": 2157,
+      "costUsd": 0.000148,
+      "raw": "{\"decision\": \"handoff\"}"
+    },
+    {
+      "ticketId": "t28",
+      "method": "chat-schema",
+      "repeat": 3,
+      "label": "handoff",
+      "probability": null,
+      "latencyMs": 1972,
+      "costUsd": 0.0001664,
+      "raw": "{\"decision\": \"handoff\"}"
+    },
+    {
+      "ticketId": "t29",
+      "method": "chat-schema",
+      "repeat": 3,
+      "label": "refund",
+      "probability": null,
+      "latencyMs": 1657,
+      "costUsd": 0.0000919,
+      "raw": "{\"decision\": \"refund\"}"
+    },
+    {
+      "ticketId": "t32",
+      "method": "chat-schema",
+      "repeat": 3,
+      "label": "refund",
+      "probability": null,
+      "latencyMs": 1667,
+      "costUsd": 0.0001044,
+      "raw": "{\"decision\": \"refund\"}"
+    },
+    {
+      "ticketId": "t31",
+      "method": "chat-schema",
+      "repeat": 3,
+      "label": "handoff",
+      "probability": null,
+      "latencyMs": 2243,
+      "costUsd": 0.000173,
+      "raw": "{\"decision\": \"handoff\"}"
+    },
+    {
+      "ticketId": "t30",
+      "method": "chat-schema",
+      "repeat": 3,
+      "label": "handoff",
+      "probability": null,
+      "latencyMs": 2446,
+      "costUsd": 0.0001418,
+      "raw": "{\"decision\": \"handoff\"}"
+    },
+    {
+      "ticketId": "t33",
+      "method": "chat-schema",
+      "repeat": 3,
+      "label": "handoff",
+      "probability": null,
+      "latencyMs": 2486,
+      "costUsd": 0.0001502,
+      "raw": "{\"decision\": \"handoff\"}"
+    },
+    {
+      "ticketId": "t35",
+      "method": "chat-schema",
+      "repeat": 3,
+      "label": "handoff",
+      "probability": null,
+      "latencyMs": 1459,
+      "costUsd": 0.0001133,
+      "raw": "{\"decision\": \"handoff\"}"
+    },
+    {
+      "ticketId": "t34",
+      "method": "chat-schema",
+      "repeat": 3,
+      "label": "handoff",
+      "probability": null,
+      "latencyMs": 2189,
+      "costUsd": 0.0002096,
+      "raw": "{\"decision\": \"handoff\"}"
+    },
+    {
+      "ticketId": "t36",
+      "method": "chat-schema",
+      "repeat": 3,
+      "label": "refund",
+      "probability": null,
+      "latencyMs": 1800,
+      "costUsd": 0.000102,
+      "raw": "{\"decision\": \"refund\"}"
+    },
+    {
+      "ticketId": "t40",
+      "method": "chat-schema",
+      "repeat": 3,
+      "label": "handoff",
+      "probability": null,
+      "latencyMs": 1730,
+      "costUsd": 0.000094,
+      "raw": "{\"decision\": \"handoff\"}"
+    },
+    {
+      "ticketId": "t38",
+      "method": "chat-schema",
+      "repeat": 3,
+      "label": "handoff",
+      "probability": null,
+      "latencyMs": 2455,
+      "costUsd": 0.0001622,
+      "raw": "{\"decision\": \"handoff\"}"
+    },
+    {
+      "ticketId": "t39",
+      "method": "chat-schema",
+      "repeat": 3,
+      "label": "handoff",
+      "probability": null,
+      "latencyMs": 2065,
+      "costUsd": 0.0001758,
+      "raw": "{\"decision\": \"handoff\"}"
+    },
+    {
+      "ticketId": "t37",
+      "method": "chat-schema",
+      "repeat": 3,
+      "label": "handoff",
+      "probability": null,
+      "latencyMs": 2468,
+      "costUsd": 0.000166,
+      "raw": "{\"decision\": \"handoff\"}"
+    },
+    {
+      "ticketId": "t41",
+      "method": "chat-schema",
+      "repeat": 3,
+      "label": "handoff",
+      "probability": null,
+      "latencyMs": 2211,
+      "costUsd": 0.0001865,
+      "raw": "{\"decision\": \"handoff\"}"
+    },
+    {
+      "ticketId": "t42",
+      "method": "chat-schema",
+      "repeat": 3,
+      "label": "handoff",
+      "probability": null,
+      "latencyMs": 2063,
+      "costUsd": 0.0001534,
+      "raw": "{\"decision\": \"handoff\"}"
+    },
+    {
+      "ticketId": "t45",
+      "method": "chat-schema",
+      "repeat": 3,
+      "label": "handoff",
+      "probability": null,
+      "latencyMs": 3039,
+      "costUsd": 0.0001023,
+      "raw": "{\"decision\": \"handoff\"}"
+    },
+    {
+      "ticketId": "t46",
+      "method": "chat-schema",
+      "repeat": 3,
+      "label": "refund",
+      "probability": null,
+      "latencyMs": 3171,
+      "costUsd": 0.000105,
+      "raw": "{\"decision\": \"refund\"}"
+    },
+    {
+      "ticketId": "t47",
+      "method": "chat-schema",
+      "repeat": 3,
+      "label": "refund",
+      "probability": null,
+      "latencyMs": 3148,
+      "costUsd": 0.000114,
+      "raw": "{\"decision\": \"refund\"}"
+    },
+    {
+      "ticketId": "t43",
+      "method": "chat-schema",
+      "repeat": 3,
+      "label": "handoff",
+      "probability": null,
+      "latencyMs": 3880,
+      "costUsd": 0.0001711,
+      "raw": "{\"decision\": \"handoff\"}"
+    },
+    {
+      "ticketId": "t48",
+      "method": "chat-schema",
+      "repeat": 3,
+      "label": "handoff",
+      "probability": null,
+      "latencyMs": 5594,
+      "costUsd": 0.0001611,
+      "raw": "{\"decision\":\"handoff\"}"
+    },
+    {
+      "ticketId": "t44",
+      "method": "chat-schema",
+      "repeat": 3,
+      "label": "refund",
+      "probability": null,
+      "latencyMs": 9567,
+      "costUsd": 0.0001094,
+      "raw": "{\"decision\": \"refund\"}"
+    },
+    {
+      "ticketId": "x01",
+      "method": "chat-schema",
+      "repeat": 3,
+      "label": "refund",
+      "probability": null,
+      "latencyMs": 9946,
+      "costUsd": 0.000153,
+      "raw": "{\"decision\": \"refund\"}"
+    },
+    {
+      "ticketId": "x06",
+      "method": "chat-schema",
+      "repeat": 3,
+      "label": "handoff",
+      "probability": null,
+      "latencyMs": 4006,
+      "costUsd": 0.0000635,
+      "raw": "{\"decision\": \"handoff\"}"
+    },
+    {
+      "ticketId": "x03",
+      "method": "chat-schema",
+      "repeat": 3,
+      "label": "handoff",
+      "probability": null,
+      "latencyMs": 10143,
+      "costUsd": 0.0001436,
+      "raw": "{\"decision\": \"handoff\"}"
+    },
+    {
+      "ticketId": "x04",
+      "method": "chat-schema",
+      "repeat": 3,
+      "label": "refund",
+      "probability": null,
+      "latencyMs": 10215,
+      "costUsd": 0.0001019,
+      "raw": "{\"decision\": \"refund\"}"
+    },
+    {
+      "ticketId": "x05",
+      "method": "chat-schema",
+      "repeat": 3,
+      "label": "handoff",
+      "probability": null,
+      "latencyMs": 8944,
+      "costUsd": 0.0001804,
+      "raw": "{\"decision\": \"handoff\"}"
+    },
+    {
+      "ticketId": "x08",
+      "method": "chat-schema",
+      "repeat": 3,
+      "label": "refund",
+      "probability": null,
+      "latencyMs": 2144,
+      "costUsd": 0.0001237,
+      "raw": "{\"decision\": \"refund\"}"
+    },
+    {
+      "ticketId": "x10",
+      "method": "chat-schema",
+      "repeat": 3,
+      "label": "handoff",
+      "probability": null,
+      "latencyMs": 1864,
+      "costUsd": 0.0000641,
+      "raw": "{\"decision\": \"handoff\"}"
+    },
+    {
+      "ticketId": "x07",
+      "method": "chat-schema",
+      "repeat": 3,
+      "label": "handoff",
+      "probability": null,
+      "latencyMs": 2951,
+      "costUsd": 0.0001753,
+      "raw": "{\"decision\": \"handoff\"}"
+    },
+    {
+      "ticketId": "x09",
+      "method": "chat-schema",
+      "repeat": 3,
+      "label": "refund",
+      "probability": null,
+      "latencyMs": 2599,
+      "costUsd": 0.0000646,
+      "raw": "{\"decision\": \"refund\"}"
+    },
+    {
+      "ticketId": "x12",
+      "method": "chat-schema",
+      "repeat": 3,
+      "label": "handoff",
+      "probability": null,
+      "latencyMs": 3122,
+      "costUsd": 0.0001312,
+      "raw": "{\"decision\": \"handoff\"}"
+    },
+    {
+      "ticketId": "x02",
+      "method": "chat-schema",
+      "repeat": 3,
+      "label": "handoff",
+      "probability": null,
+      "latencyMs": 16563,
+      "costUsd": 0.0000843,
+      "raw": "{\"decision\": \"handoff\"}"
+    },
+    {
+      "ticketId": "x11",
+      "method": "chat-schema",
+      "repeat": 3,
+      "label": "handoff",
+      "probability": null,
+      "latencyMs": 4529,
+      "costUsd": 0.0001698,
+      "raw": "{\"decision\": \"handoff\"}"
     }
   ]
 }

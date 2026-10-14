@@ -14,6 +14,16 @@
     "p50LatencyMs": 2064,
     "costPer1kUsd": 0.1323
   },
+  "chatSchema": {
+    "calls": 180,
+    "correct": 177,
+    "wrongRefunds": 0,
+    "needlessHandoffs": 3,
+    "invalid": 0,
+    "flippedTickets": 0,
+    "p50LatencyMs": 2138,
+    "costPer1kUsd": 0.134
+  },
   "decision": [
     {
       "threshold": 0.5,
@@ -110,6 +120,11 @@
         "refund",
         "refund"
       ],
+      "chatSchema": [
+        "refund",
+        "refund",
+        "refund"
+      ],
       "probability": [
         0.92,
         0.93,
@@ -128,6 +143,11 @@
       },
       "expected": "refund",
       "chat": [
+        "refund",
+        "refund",
+        "refund"
+      ],
+      "chatSchema": [
         "refund",
         "refund",
         "refund"
@@ -154,6 +174,11 @@
         "handoff",
         "handoff"
       ],
+      "chatSchema": [
+        "handoff",
+        "handoff",
+        "handoff"
+      ],
       "probability": [
         0.04,
         0.04,
@@ -172,6 +197,11 @@
       },
       "expected": "refund",
       "chat": [
+        "refund",
+        "refund",
+        "refund"
+      ],
+      "chatSchema": [
         "refund",
         "refund",
         "refund"
@@ -198,6 +228,11 @@
         "handoff",
         "handoff"
       ],
+      "chatSchema": [
+        "handoff",
+        "handoff",
+        "handoff"
+      ],
       "probability": [
         0.04,
         0.04,
@@ -216,6 +251,11 @@
       },
       "expected": "refund",
       "chat": [
+        "refund",
+        "refund",
+        "refund"
+      ],
+      "chatSchema": [
         "refund",
         "refund",
         "refund"
@@ -242,6 +282,11 @@
         "refund",
         "refund"
       ],
+      "chatSchema": [
+        "refund",
+        "refund",
+        "refund"
+      ],
       "probability": [
         0.9,
         0.89,
@@ -260,6 +305,11 @@
       },
       "expected": "handoff",
       "chat": [
+        "handoff",
+        "handoff",
+        "handoff"
+      ],
+      "chatSchema": [
         "handoff",
         "handoff",
         "handoff"
@@ -286,6 +336,11 @@
         "refund",
         "refund"
       ],
+      "chatSchema": [
+        "refund",
+        "refund",
+        "refund"
+      ],
       "probability": [
         0.84,
         0.86,
@@ -304,6 +359,11 @@
       },
       "expected": "handoff",
       "chat": [
+        "handoff",
+        "handoff",
+        "handoff"
+      ],
+      "chatSchema": [
         "handoff",
         "handoff",
         "handoff"
@@ -330,6 +390,11 @@
         "refund",
         "refund"
       ],
+      "chatSchema": [
+        "refund",
+        "refund",
+        "refund"
+      ],
       "probability": [
         0.94,
         0.93,
@@ -348,6 +413,11 @@
       },
       "expected": "handoff",
       "chat": [
+        "handoff",
+        "handoff",
+        "handoff"
+      ],
+      "chatSchema": [
         "handoff",
         "handoff",
         "handoff"
@@ -374,6 +444,11 @@
         "handoff",
         "handoff"
       ],
+      "chatSchema": [
+        "handoff",
+        "handoff",
+        "handoff"
+      ],
       "probability": [
         0.04,
         0.04,
@@ -392,6 +467,11 @@
       },
       "expected": "refund",
       "chat": [
+        "refund",
+        "refund",
+        "refund"
+      ],
+      "chatSchema": [
         "refund",
         "refund",
         "refund"
@@ -418,6 +498,11 @@
         "handoff",
         "handoff"
       ],
+      "chatSchema": [
+        "handoff",
+        "handoff",
+        "handoff"
+      ],
       "probability": [
         0.16,
         0.15,
@@ -436,6 +521,11 @@
       },
       "expected": "refund",
       "chat": [
+        "refund",
+        "refund",
+        "refund"
+      ],
+      "chatSchema": [
         "refund",
         "refund",
         "refund"
@@ -462,6 +552,11 @@
         "refund",
         "refund"
       ],
+      "chatSchema": [
+        "refund",
+        "refund",
+        "refund"
+      ],
       "probability": [
         0.84,
         0.85,
@@ -480,6 +575,11 @@
       },
       "expected": "handoff",
       "chat": [
+        "handoff",
+        "handoff",
+        "handoff"
+      ],
+      "chatSchema": [
         "handoff",
         "handoff",
         "handoff"
@@ -506,6 +606,11 @@
         "handoff",
         "handoff"
       ],
+      "chatSchema": [
+        "handoff",
+        "handoff",
+        "handoff"
+      ],
       "probability": [
         0.04,
         0.04,
@@ -524,6 +629,11 @@
       },
       "expected": "handoff",
       "chat": [
+        "handoff",
+        "handoff",
+        "handoff"
+      ],
+      "chatSchema": [
         "handoff",
         "handoff",
         "handoff"
@@ -550,6 +660,11 @@
         "refund",
         "refund"
       ],
+      "chatSchema": [
+        "refund",
+        "refund",
+        "refund"
+      ],
       "probability": [
         0.89,
         0.89,
@@ -568,6 +683,11 @@
       },
       "expected": "handoff",
       "chat": [
+        "handoff",
+        "handoff",
+        "handoff"
+      ],
+      "chatSchema": [
         "handoff",
         "handoff",
         "handoff"
@@ -594,6 +714,11 @@
         "handoff",
         "handoff"
       ],
+      "chatSchema": [
+        "handoff",
+        "handoff",
+        "handoff"
+      ],
       "probability": [
         0.03,
         0.03,
@@ -612,6 +737,11 @@
       },
       "expected": "handoff",
       "chat": [
+        "handoff",
+        "handoff",
+        "handoff"
+      ],
+      "chatSchema": [
         "handoff",
         "handoff",
         "handoff"
@@ -638,6 +768,11 @@
         "handoff",
         "handoff"
       ],
+      "chatSchema": [
+        "handoff",
+        "handoff",
+        "handoff"
+      ],
       "probability": [
         0.05,
         0.05,
@@ -656,6 +791,11 @@
       },
       "expected": "handoff",
       "chat": [
+        "handoff",
+        "handoff",
+        "handoff"
+      ],
+      "chatSchema": [
         "handoff",
         "handoff",
         "handoff"
@@ -682,6 +822,11 @@
         "refund",
         "refund"
       ],
+      "chatSchema": [
+        "refund",
+        "refund",
+        "refund"
+      ],
       "probability": [
         0.88,
         0.81,
@@ -700,6 +845,11 @@
       },
       "expected": "handoff",
       "chat": [
+        "handoff",
+        "handoff",
+        "handoff"
+      ],
+      "chatSchema": [
         "handoff",
         "handoff",
         "handoff"
@@ -726,6 +876,11 @@
         "refund",
         "refund"
       ],
+      "chatSchema": [
+        "refund",
+        "refund",
+        "refund"
+      ],
       "probability": [
         0.92,
         0.91,
@@ -744,6 +899,11 @@
       },
       "expected": "handoff",
       "chat": [
+        "handoff",
+        "handoff",
+        "handoff"
+      ],
+      "chatSchema": [
         "handoff",
         "handoff",
         "handoff"
@@ -770,6 +930,11 @@
         "handoff",
         "handoff"
       ],
+      "chatSchema": [
+        "handoff",
+        "handoff",
+        "handoff"
+      ],
       "probability": [
         0.03,
         0.03,
@@ -788,6 +953,11 @@
       },
       "expected": "refund",
       "chat": [
+        "refund",
+        "refund",
+        "refund"
+      ],
+      "chatSchema": [
         "refund",
         "refund",
         "refund"
@@ -814,6 +984,11 @@
         "handoff",
         "handoff"
       ],
+      "chatSchema": [
+        "handoff",
+        "handoff",
+        "handoff"
+      ],
       "probability": [
         0.02,
         0.03,
@@ -832,6 +1007,11 @@
       },
       "expected": "handoff",
       "chat": [
+        "handoff",
+        "handoff",
+        "handoff"
+      ],
+      "chatSchema": [
         "handoff",
         "handoff",
         "handoff"
@@ -858,6 +1038,11 @@
         "handoff",
         "handoff"
       ],
+      "chatSchema": [
+        "handoff",
+        "handoff",
+        "handoff"
+      ],
       "probability": [
         0.16,
         0.16,
@@ -876,6 +1061,11 @@
       },
       "expected": "refund",
       "chat": [
+        "refund",
+        "refund",
+        "refund"
+      ],
+      "chatSchema": [
         "refund",
         "refund",
         "refund"
@@ -902,6 +1092,11 @@
         "handoff",
         "handoff"
       ],
+      "chatSchema": [
+        "handoff",
+        "handoff",
+        "handoff"
+      ],
       "probability": [
         0.04,
         0.05,
@@ -920,6 +1115,11 @@
       },
       "expected": "handoff",
       "chat": [
+        "handoff",
+        "handoff",
+        "handoff"
+      ],
+      "chatSchema": [
         "handoff",
         "handoff",
         "handoff"
@@ -946,6 +1146,11 @@
         "handoff",
         "handoff"
       ],
+      "chatSchema": [
+        "handoff",
+        "handoff",
+        "handoff"
+      ],
       "probability": [
         0.04,
         0.04,
@@ -964,6 +1169,11 @@
       },
       "expected": "handoff",
       "chat": [
+        "handoff",
+        "handoff",
+        "handoff"
+      ],
+      "chatSchema": [
         "handoff",
         "handoff",
         "handoff"
@@ -990,6 +1200,11 @@
         "handoff",
         "handoff"
       ],
+      "chatSchema": [
+        "handoff",
+        "handoff",
+        "handoff"
+      ],
       "probability": [
         0.04,
         0.04,
@@ -1008,6 +1223,11 @@
       },
       "expected": "handoff",
       "chat": [
+        "handoff",
+        "handoff",
+        "handoff"
+      ],
+      "chatSchema": [
         "handoff",
         "handoff",
         "handoff"
@@ -1034,6 +1254,11 @@
         "handoff",
         "handoff"
       ],
+      "chatSchema": [
+        "handoff",
+        "handoff",
+        "handoff"
+      ],
       "probability": [
         0.04,
         0.04,
@@ -1052,6 +1277,11 @@
       },
       "expected": "refund",
       "chat": [
+        "refund",
+        "refund",
+        "refund"
+      ],
+      "chatSchema": [
         "refund",
         "refund",
         "refund"
@@ -1078,6 +1308,11 @@
         "handoff",
         "handoff"
       ],
+      "chatSchema": [
+        "handoff",
+        "handoff",
+        "handoff"
+      ],
       "probability": [
         0.17,
         0.18,
@@ -1096,6 +1331,11 @@
       },
       "expected": "refund",
       "chat": [
+        "refund",
+        "refund",
+        "refund"
+      ],
+      "chatSchema": [
         "refund",
         "refund",
         "refund"
@@ -1122,6 +1362,11 @@
         "refund",
         "refund"
       ],
+      "chatSchema": [
+        "refund",
+        "refund",
+        "refund"
+      ],
       "probability": [
         0.75,
         0.76,
@@ -1140,6 +1385,11 @@
       },
       "expected": "handoff",
       "chat": [
+        "handoff",
+        "handoff",
+        "handoff"
+      ],
+      "chatSchema": [
         "handoff",
         "handoff",
         "handoff"
@@ -1166,6 +1416,11 @@
         "refund",
         "refund"
       ],
+      "chatSchema": [
+        "refund",
+        "refund",
+        "refund"
+      ],
       "probability": [
         0.83,
         0.82,
@@ -1184,6 +1439,11 @@
       },
       "expected": "handoff",
       "chat": [
+        "handoff",
+        "handoff",
+        "handoff"
+      ],
+      "chatSchema": [
         "handoff",
         "handoff",
         "handoff"
@@ -1210,6 +1470,11 @@
         "handoff",
         "handoff"
       ],
+      "chatSchema": [
+        "handoff",
+        "handoff",
+        "handoff"
+      ],
       "probability": [
         0.07,
         0.08,
@@ -1228,6 +1493,11 @@
       },
       "expected": "refund",
       "chat": [
+        "refund",
+        "refund",
+        "refund"
+      ],
+      "chatSchema": [
         "refund",
         "refund",
         "refund"
@@ -1254,6 +1524,11 @@
         "handoff",
         "handoff"
       ],
+      "chatSchema": [
+        "handoff",
+        "handoff",
+        "handoff"
+      ],
       "probability": [
         0.34,
         0.34,
@@ -1272,6 +1547,11 @@
       },
       "expected": "handoff",
       "chat": [
+        "handoff",
+        "handoff",
+        "handoff"
+      ],
+      "chatSchema": [
         "handoff",
         "handoff",
         "handoff"
@@ -1298,6 +1578,11 @@
         "handoff",
         "handoff"
       ],
+      "chatSchema": [
+        "handoff",
+        "handoff",
+        "handoff"
+      ],
       "probability": [
         0.04,
         0.04,
@@ -1316,6 +1601,11 @@
       },
       "expected": "refund",
       "chat": [
+        "refund",
+        "refund",
+        "refund"
+      ],
+      "chatSchema": [
         "refund",
         "refund",
         "refund"
@@ -1342,6 +1632,11 @@
         "handoff",
         "handoff"
       ],
+      "chatSchema": [
+        "refund",
+        "refund",
+        "refund"
+      ],
       "probability": [
         0.77,
         0.76,
@@ -1360,6 +1655,11 @@
       },
       "expected": "handoff",
       "chat": [
+        "handoff",
+        "handoff",
+        "handoff"
+      ],
+      "chatSchema": [
         "handoff",
         "handoff",
         "handoff"
@@ -1386,6 +1686,11 @@
         "handoff",
         "handoff"
       ],
+      "chatSchema": [
+        "handoff",
+        "handoff",
+        "handoff"
+      ],
       "probability": [
         0.04,
         0.04,
@@ -1404,6 +1709,11 @@
       },
       "expected": "handoff",
       "chat": [
+        "handoff",
+        "handoff",
+        "handoff"
+      ],
+      "chatSchema": [
         "handoff",
         "handoff",
         "handoff"

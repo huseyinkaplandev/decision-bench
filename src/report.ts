@@ -46,8 +46,8 @@ function score(calls: Call[], decide: (call: Call) => Label | null): Score {
   return result;
 }
 
-export function chatScore(run: Run): Score {
-  return score(run.calls.filter((call) => call.method === 'chat-json'), (call) => call.label);
+export function chatScore(run: Run, method: 'chat-json' | 'chat-schema' = 'chat-json'): Score {
+  return score(run.calls.filter((call) => call.method === method), (call) => call.label);
 }
 
 export function decisionScore(run: Run, threshold: number): Score {
@@ -66,6 +66,7 @@ export function summarize(run: Run) {
     tickets: tickets.length,
     repeats: run.repeats,
     chat: chatScore(run),
+    chatSchema: chatScore(run, 'chat-schema'),
     decision: THRESHOLDS.map((threshold) => ({ threshold, ...decisionScore(run, threshold) })),
     perTicket: tickets.map((ticket) => {
       const calls = run.calls.filter((call) => call.ticketId === ticket.id);
@@ -76,6 +77,7 @@ export function summarize(run: Run) {
         order: ticket.order,
         expected: expectedDecision(ticket),
         chat: calls.filter((call) => call.method === 'chat-json').map((call) => call.label),
+        chatSchema: calls.filter((call) => call.method === 'chat-schema').map((call) => call.label),
         probability: calls.filter((call) => call.method === 'decision').map((call) => call.probability),
       };
     }),
@@ -92,5 +94,6 @@ if (import.meta.url === `file:///${process.argv[1]?.replace(/\\/g, '/').replace(
   console.log('| method | correct | wrong refunds | needless handoffs | invalid | flipped tickets | p50 ms | cost / 1k |');
   console.log('|---|---|---|---|---|---|---|---|');
   console.log(row(`chat JSON (${summary.chatModel})`, summary.chat));
+  console.log(row(`chat strict schema (${summary.chatModel})`, summary.chatSchema));
   for (const entry of summary.decision) console.log(row(`decision >= ${entry.threshold} (${summary.decisionModel})`, entry));
 }

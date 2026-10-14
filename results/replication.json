@@ -1,0 +1,3609 @@
+{
+  "ranAt": "2026-10-14T08:07:31.278Z",
+  "chatModel": "anthropic/claude-haiku-5.5",
+  "decisionModel": "typesafe/jev-1.13",
+  "repeats": 3,
+  "failures": [],
+  "calls": [
+    {
+      "ticketId": "t03",
+      "method": "decision",
+      "repeat": 1,
+      "label": null,
+      "probability": 0.04,
+      "latencyMs": 647,
+      "costUsd": 0.000020076,
+      "raw": "{\"qualifies\":{\"type\":\"noul\",\"noul\":0.04}}"
+    },
+    {
+      "ticketId": "t02",
+      "method": "decision",
+      "repeat": 1,
+      "label": null,
+      "probability": 0.89,
+      "latencyMs": 650,
+      "costUsd": 0.00001995,
+      "raw": "{\"qualifies\":{\"type\":\"noul\",\"noul\":0.89}}"
+    },
+    {
+      "ticketId": "t01",
+      "method": "decision",
+      "repeat": 1,
+      "label": null,
+      "probability": 0.92,
+      "latencyMs": 653,
+      "costUsd": 0.000019782,
+      "raw": "{\"qualifies\":{\"type\":\"noul\",\"noul\":0.92}}"
+    },
+    {
+      "ticketId": "t04",
+      "method": "decision",
+      "repeat": 1,
+      "label": null,
+      "probability": 0.89,
+      "latencyMs": 297,
+      "costUsd": 0.00001995,
+      "raw": "{\"qualifies\":{\"type\":\"noul\",\"noul\":0.89}}"
+    },
+    {
+      "ticketId": "t05",
+      "method": "decision",
+      "repeat": 1,
+      "label": null,
+      "probability": 0.04,
+      "latencyMs": 377,
+      "costUsd": 0.000019572,
+      "raw": "{\"qualifies\":{\"type\":\"noul\",\"noul\":0.04}}"
+    },
+    {
+      "ticketId": "t02",
+      "method": "chat-json",
+      "repeat": 1,
+      "label": "refund",
+      "probability": null,
+      "latencyMs": 1997,
+      "costUsd": 0.0000807,
+      "raw": "{\"decision\": \"refund\"}"
+    },
+    {
+      "ticketId": "t01",
+      "method": "chat-json",
+      "repeat": 1,
+      "label": "refund",
+      "probability": null,
+      "latencyMs": 2026,
+      "costUsd": 0.0000852,
+      "raw": "{\"decision\": \"refund\"}"
+    },
+    {
+      "ticketId": "t04",
+      "method": "chat-json",
+      "repeat": 1,
+      "label": "refund",
+      "probability": null,
+      "latencyMs": 1539,
+      "costUsd": 0.000088,
+      "raw": "{\"decision\": \"refund\"}"
+    },
+    {
+      "ticketId": "t06",
+      "method": "decision",
+      "repeat": 1,
+      "label": null,
+      "probability": 0.92,
+      "latencyMs": 306,
+      "costUsd": 0.000019782,
+      "raw": "{\"qualifies\":{\"type\":\"noul\",\"noul\":0.92}}"
+    },
+    {
+      "ticketId": "t03",
+      "method": "chat-json",
+      "repeat": 1,
+      "label": "handoff",
+      "probability": null,
+      "latencyMs": 3024,
+      "costUsd": 0.0001937,
+      "raw": "{\"decision\": \"handoff\"}"
+    },
+    {
+      "ticketId": "t05",
+      "method": "chat-json",
+      "repeat": 1,
+      "label": "handoff",
+      "probability": null,
+      "latencyMs": 2544,
+      "costUsd": 0.0001424,
+      "raw": "{\"decision\": \"handoff\"}"
+    },
+    {
+      "ticketId": "t06",
+      "method": "chat-json",
+      "repeat": 1,
+      "label": "refund",
+      "probability": null,
+      "latencyMs": 1940,
+      "costUsd": 0.0000963,
+      "raw": "{\"decision\": \"refund\"}"
+    },
+    {
+      "ticketId": "t07",
+      "method": "decision",
+      "repeat": 1,
+      "label": null,
+      "probability": 0.89,
+      "latencyMs": 1323,
+      "costUsd": 0.000020202,
+      "raw": "{\"qualifies\":{\"type\":\"noul\",\"noul\":0.89}}"
+    },
+    {
+      "ticketId": "t07",
+      "method": "chat-json",
+      "repeat": 1,
+      "label": "refund",
+      "probability": null,
+      "latencyMs": 1574,
+      "costUsd": 0.0000868,
+      "raw": "{\"decision\": \"refund\"}"
+    },
+    {
+      "ticketId": "t08",
+      "method": "decision",
+      "repeat": 1,
+      "label": null,
+      "probability": 0.04,
+      "latencyMs": 702,
+      "costUsd": 0.000020076,
+      "raw": "{\"qualifies\":{\"type\":\"noul\",\"noul\":0.04}}"
+    },
+    {
+      "ticketId": "t09",
+      "method": "decision",
+      "repeat": 1,
+      "label": null,
+      "probability": 0.84,
+      "latencyMs": 1241,
+      "costUsd": 0.000019992,
+      "raw": "{\"qualifies\":{\"type\":\"noul\",\"noul\":0.84}}"
+    },
+    {
+      "ticketId": "t10",
+      "method": "decision",
+      "repeat": 1,
+      "label": null,
+      "probability": 0.04,
+      "latencyMs": 934,
+      "costUsd": 0.000019446,
+      "raw": "{\"qualifies\":{\"type\":\"noul\",\"noul\":0.04}}"
+    },
+    {
+      "ticketId": "t11",
+      "method": "chat-json",
+      "repeat": 1,
+      "label": "refund",
+      "probability": null,
+      "latencyMs": 1998,
+      "costUsd": 0.0000833,
+      "raw": "{\"decision\": \"refund\"}"
+    },
+    {
+      "ticketId": "t08",
+      "method": "chat-json",
+      "repeat": 1,
+      "label": "handoff",
+      "probability": null,
+      "latencyMs": 3480,
+      "costUsd": 0.0001872,
+      "raw": "{\"decision\": \"handoff\"}"
+    },
+    {
+      "ticketId": "t09",
+      "method": "chat-json",
+      "repeat": 1,
+      "label": "refund",
+      "probability": null,
+      "latencyMs": 2609,
+      "costUsd": 0.0000951,
+      "raw": "{\"decision\": \"refund\"}"
+    },
+    {
+      "ticketId": "t11",
+      "method": "decision",
+      "repeat": 1,
+      "label": null,
+      "probability": 0.93,
+      "latencyMs": 1697,
+      "costUsd": 0.000019656,
+      "raw": "{\"qualifies\":{\"type\":\"noul\",\"noul\":0.93}}"
+    },
+    {
+      "ticketId": "t12",
+      "method": "decision",
+      "repeat": 1,
+      "label": null,
+      "probability": 0.04,
+      "latencyMs": 557,
+      "costUsd": 0.000020202,
+      "raw": "{\"qualifies\":{\"type\":\"noul\",\"noul\":0.04}}"
+    },
+    {
+      "ticketId": "t13",
+      "method": "decision",
+      "repeat": 1,
+      "label": null,
+      "probability": 0.04,
+      "latencyMs": 510,
+      "costUsd": 0.000019992,
+      "raw": "{\"qualifies\":{\"type\":\"noul\",\"noul\":0.04}}"
+    },
+    {
+      "ticketId": "t10",
+      "method": "chat-json",
+      "repeat": 1,
+      "label": "handoff",
+      "probability": null,
+      "latencyMs": 3118,
+      "costUsd": 0.000167,
+      "raw": "{\"decision\": \"handoff\"}"
+    },
+    {
+      "ticketId": "t14",
+      "method": "decision",
+      "repeat": 1,
+      "label": null,
+      "probability": 0.83,
+      "latencyMs": 368,
+      "costUsd": 0.000020034,
+      "raw": "{\"qualifies\":{\"type\":\"noul\",\"noul\":0.83}}"
+    },
+    {
+      "ticketId": "t15",
+      "method": "decision",
+      "repeat": 1,
+      "label": null,
+      "probability": 0.15,
+      "latencyMs": 303,
+      "costUsd": 0.000019446,
+      "raw": "{\"qualifies\":{\"type\":\"noul\",\"noul\":0.15}}"
+    },
+    {
+      "ticketId": "t16",
+      "method": "decision",
+      "repeat": 1,
+      "label": null,
+      "probability": 0.91,
+      "latencyMs": 288,
+      "costUsd": 0.00001974,
+      "raw": "{\"qualifies\":{\"type\":\"noul\",\"noul\":0.91}}"
+    },
+    {
+      "ticketId": "t15",
+      "method": "chat-json",
+      "repeat": 1,
+      "label": "handoff",
+      "probability": null,
+      "latencyMs": 1478,
+      "costUsd": 0.0000837,
+      "raw": "{\"decision\": \"handoff\"}"
+    },
+    {
+      "ticketId": "t14",
+      "method": "chat-json",
+      "repeat": 1,
+      "label": "refund",
+      "probability": null,
+      "latencyMs": 1691,
+      "costUsd": 0.0000888,
+      "raw": "{\"decision\": \"refund\"}"
+    },
+    {
+      "ticketId": "t17",
+      "method": "decision",
+      "repeat": 1,
+      "label": null,
+      "probability": 0.82,
+      "latencyMs": 279,
+      "costUsd": 0.000019908,
+      "raw": "{\"qualifies\":{\"type\":\"noul\",\"noul\":0.82}}"
+    },
+    {
+      "ticketId": "t18",
+      "method": "decision",
+      "repeat": 1,
+      "label": null,
+      "probability": 0.04,
+      "latencyMs": 317,
+      "costUsd": 0.000020034,
+      "raw": "{\"qualifies\":{\"type\":\"noul\",\"noul\":0.04}}"
+    },
+    {
+      "ticketId": "t12",
+      "method": "chat-json",
+      "repeat": 1,
+      "label": "handoff",
+      "probability": null,
+      "latencyMs": 3883,
+      "costUsd": 0.000184,
+      "raw": "{\"decision\": \"handoff\"}"
+    },
+    {
+      "ticketId": "t16",
+      "method": "chat-json",
+      "repeat": 1,
+      "label": "refund",
+      "probability": null,
+      "latencyMs": 1740,
+      "costUsd": 0.0000973,
+      "raw": "{\"decision\": \"refund\"}"
+    },
+    {
+      "ticketId": "t13",
+      "method": "chat-json",
+      "repeat": 1,
+      "label": "handoff",
+      "probability": null,
+      "latencyMs": 2917,
+      "costUsd": 0.0002075,
+      "raw": "{\"decision\": \"handoff\"}"
+    },
+    {
+      "ticketId": "t19",
+      "method": "decision",
+      "repeat": 1,
+      "label": null,
+      "probability": 0.04,
+      "latencyMs": 332,
+      "costUsd": 0.00001995,
+      "raw": "{\"qualifies\":{\"type\":\"noul\",\"noul\":0.04}}"
+    },
+    {
+      "ticketId": "t20",
+      "method": "decision",
+      "repeat": 1,
+      "label": null,
+      "probability": 0.19,
+      "latencyMs": 421,
+      "costUsd": 0.000019572,
+      "raw": "{\"qualifies\":{\"type\":\"noul\",\"noul\":0.19}}"
+    },
+    {
+      "ticketId": "t17",
+      "method": "chat-json",
+      "repeat": 1,
+      "label": "refund",
+      "probability": null,
+      "latencyMs": 2023,
+      "costUsd": 0.0001003,
+      "raw": "{\"decision\": \"refund\"}"
+    },
+    {
+      "ticketId": "t21",
+      "method": "decision",
+      "repeat": 1,
+      "label": null,
+      "probability": 0.87,
+      "latencyMs": 348,
+      "costUsd": 0.000019782,
+      "raw": "{\"qualifies\":{\"type\":\"noul\",\"noul\":0.87}}"
+    },
+    {
+      "ticketId": "t22",
+      "method": "decision",
+      "repeat": 1,
+      "label": null,
+      "probability": 0.04,
+      "latencyMs": 468,
+      "costUsd": 0.000019992,
+      "raw": "{\"qualifies\":{\"type\":\"noul\",\"noul\":0.04}}"
+    },
+    {
+      "ticketId": "t20",
+      "method": "chat-json",
+      "repeat": 1,
+      "label": "handoff",
+      "probability": null,
+      "latencyMs": 1610,
+      "costUsd": 0.0000879,
+      "raw": "{\"decision\": \"handoff\"}"
+    },
+    {
+      "ticketId": "t18",
+      "method": "chat-json",
+      "repeat": 1,
+      "label": "handoff",
+      "probability": null,
+      "latencyMs": 2240,
+      "costUsd": 0.0001682,
+      "raw": "{\"decision\": \"handoff\"}"
+    },
+    {
+      "ticketId": "t23",
+      "method": "decision",
+      "repeat": 1,
+      "label": null,
+      "probability": 0.02,
+      "latencyMs": 307,
+      "costUsd": 0.000020118,
+      "raw": "{\"qualifies\":{\"type\":\"noul\",\"noul\":0.02}}"
+    },
+    {
+      "ticketId": "t21",
+      "method": "chat-json",
+      "repeat": 1,
+      "label": "refund",
+      "probability": null,
+      "latencyMs": 1636,
+      "costUsd": 0.0000925,
+      "raw": "{\"decision\": \"refund\"}"
+    },
+    {
+      "ticketId": "t19",
+      "method": "chat-json",
+      "repeat": 1,
+      "label": "handoff",
+      "probability": null,
+      "latencyMs": 2109,
+      "costUsd": 0.0001823,
+      "raw": "{\"decision\": \"handoff\"}"
+    },
+    {
+      "ticketId": "t24",
+      "method": "decision",
+      "repeat": 1,
+      "label": null,
+      "probability": 0.04,
+      "latencyMs": 296,
+      "costUsd": 0.000020118,
+      "raw": "{\"qualifies\":{\"type\":\"noul\",\"noul\":0.04}}"
+    },
+    {
+      "ticketId": "t25",
+      "method": "decision",
+      "repeat": 1,
+      "label": null,
+      "probability": 0.04,
+      "latencyMs": 354,
+      "costUsd": 0.000019614,
+      "raw": "{\"qualifies\":{\"type\":\"noul\",\"noul\":0.04}}"
+    },
+    {
+      "ticketId": "t26",
+      "method": "decision",
+      "repeat": 1,
+      "label": null,
+      "probability": 0.04,
+      "latencyMs": 301,
+      "costUsd": 0.00001974,
+      "raw": "{\"qualifies\":{\"type\":\"noul\",\"noul\":0.04}}"
+    },
+    {
+      "ticketId": "t22",
+      "method": "chat-json",
+      "repeat": 1,
+      "label": "handoff",
+      "probability": null,
+      "latencyMs": 2215,
+      "costUsd": 0.0001622,
+      "raw": "{\"decision\": \"handoff\"}"
+    },
+    {
+      "ticketId": "t27",
+      "method": "decision",
+      "repeat": 1,
+      "label": null,
+      "probability": 0.85,
+      "latencyMs": 330,
+      "costUsd": 0.000019782,
+      "raw": "{\"qualifies\":{\"type\":\"noul\",\"noul\":0.85}}"
+    },
+    {
+      "ticketId": "t23",
+      "method": "chat-json",
+      "repeat": 1,
+      "label": "handoff",
+      "probability": null,
+      "latencyMs": 2404,
+      "costUsd": 0.000154,
+      "raw": "{\"decision\": \"handoff\"}"
+    },
+    {
+      "ticketId": "t26",
+      "method": "chat-json",
+      "repeat": 1,
+      "label": "handoff",
+      "probability": null,
+      "latencyMs": 2010,
+      "costUsd": 0.000138,
+      "raw": "{\"decision\": \"handoff\"}"
+    },
+    {
+      "ticketId": "t28",
+      "method": "decision",
+      "repeat": 1,
+      "label": null,
+      "probability": 0.04,
+      "latencyMs": 293,
+      "costUsd": 0.000019908,
+      "raw": "{\"qualifies\":{\"type\":\"noul\",\"noul\":0.04}}"
+    },
+    {
+      "ticketId": "t24",
+      "method": "chat-json",
+      "repeat": 1,
+      "label": "handoff",
+      "probability": null,
+      "latencyMs": 2644,
+      "costUsd": 0.0002029,
+      "raw": "{\"decision\": \"handoff\"}"
+    },
+    {
+      "ticketId": "t27",
+      "method": "chat-json",
+      "repeat": 1,
+      "label": "refund",
+      "probability": null,
+      "latencyMs": 1641,
+      "costUsd": 0.000094,
+      "raw": "{\"decision\": \"refund\"}"
+    },
+    {
+      "ticketId": "t25",
+      "method": "chat-json",
+      "repeat": 1,
+      "label": "handoff",
+      "probability": null,
+      "latencyMs": 2561,
+      "costUsd": 0.0001517,
+      "raw": "{\"decision\": \"handoff\"}"
+    },
+    {
+      "ticketId": "t29",
+      "method": "decision",
+      "repeat": 1,
+      "label": null,
+      "probability": 0.91,
+      "latencyMs": 311,
+      "costUsd": 0.000020244,
+      "raw": "{\"qualifies\":{\"type\":\"noul\",\"noul\":0.91}}"
+    },
+    {
+      "ticketId": "t30",
+      "method": "decision",
+      "repeat": 1,
+      "label": null,
+      "probability": 0.04,
+      "latencyMs": 289,
+      "costUsd": 0.000019488,
+      "raw": "{\"qualifies\":{\"type\":\"noul\",\"noul\":0.04}}"
+    },
+    {
+      "ticketId": "t31",
+      "method": "decision",
+      "repeat": 1,
+      "label": null,
+      "probability": 0.03,
+      "latencyMs": 323,
+      "costUsd": 0.000019866,
+      "raw": "{\"qualifies\":{\"type\":\"noul\",\"noul\":0.03}}"
+    },
+    {
+      "ticketId": "t32",
+      "method": "decision",
+      "repeat": 1,
+      "label": null,
+      "probability": 0.85,
+      "latencyMs": 401,
+      "costUsd": 0.00002016,
+      "raw": "{\"qualifies\":{\"type\":\"noul\",\"noul\":0.85}}"
+    },
+    {
+      "ticketId": "t29",
+      "method": "chat-json",
+      "repeat": 1,
+      "label": "refund",
+      "probability": null,
+      "latencyMs": 1529,
+      "costUsd": 0.0000794,
+      "raw": "{\"decision\": \"refund\"}"
+    },
+    {
+      "ticketId": "t28",
+      "method": "chat-json",
+      "repeat": 1,
+      "label": "handoff",
+      "probability": null,
+      "latencyMs": 2440,
+      "costUsd": 0.0001959,
+      "raw": "{\"decision\": \"handoff\"}"
+    },
+    {
+      "ticketId": "t31",
+      "method": "chat-json",
+      "repeat": 1,
+      "label": "handoff",
+      "probability": null,
+      "latencyMs": 1337,
+      "costUsd": 0.000044,
+      "raw": "{\"decision\": \"handoff\"}"
+    },
+    {
+      "ticketId": "t32",
+      "method": "chat-json",
+      "repeat": 1,
+      "label": "refund",
+      "probability": null,
+      "latencyMs": 1464,
+      "costUsd": 0.0000919,
+      "raw": "{\"decision\": \"refund\"}"
+    },
+    {
+      "ticketId": "t30",
+      "method": "chat-json",
+      "repeat": 1,
+      "label": "handoff",
+      "probability": null,
+      "latencyMs": 1821,
+      "costUsd": 0.0001263,
+      "raw": "{\"decision\": \"handoff\"}"
+    },
+    {
+      "ticketId": "t33",
+      "method": "decision",
+      "repeat": 1,
+      "label": null,
+      "probability": 0.03,
+      "latencyMs": 632,
+      "costUsd": 0.000020034,
+      "raw": "{\"qualifies\":{\"type\":\"noul\",\"noul\":0.03}}"
+    },
+    {
+      "ticketId": "t34",
+      "method": "decision",
+      "repeat": 1,
+      "label": null,
+      "probability": 0.04,
+      "latencyMs": 625,
+      "costUsd": 0.000020328,
+      "raw": "{\"qualifies\":{\"type\":\"noul\",\"noul\":0.04}}"
+    },
+    {
+      "ticketId": "t35",
+      "method": "decision",
+      "repeat": 1,
+      "label": null,
+      "probability": 0.17,
+      "latencyMs": 548,
+      "costUsd": 0.000019446,
+      "raw": "{\"qualifies\":{\"type\":\"noul\",\"noul\":0.17}}"
+    },
+    {
+      "ticketId": "t36",
+      "method": "decision",
+      "repeat": 1,
+      "label": null,
+      "probability": 0.93,
+      "latencyMs": 607,
+      "costUsd": 0.000019824,
+      "raw": "{\"qualifies\":{\"type\":\"noul\",\"noul\":0.93}}"
+    },
+    {
+      "ticketId": "t33",
+      "method": "chat-json",
+      "repeat": 1,
+      "label": "handoff",
+      "probability": null,
+      "latencyMs": 2069,
+      "costUsd": 0.0000447,
+      "raw": "{\"decision\": \"handoff\"}"
+    },
+    {
+      "ticketId": "t37",
+      "method": "decision",
+      "repeat": 1,
+      "label": null,
+      "probability": 0.05,
+      "latencyMs": 542,
+      "costUsd": 0.000020202,
+      "raw": "{\"qualifies\":{\"type\":\"noul\",\"noul\":0.05}}"
+    },
+    {
+      "ticketId": "t35",
+      "method": "chat-json",
+      "repeat": 1,
+      "label": "handoff",
+      "probability": null,
+      "latencyMs": 1780,
+      "costUsd": 0.0000873,
+      "raw": "{\"decision\": \"handoff\"}"
+    },
+    {
+      "ticketId": "t36",
+      "method": "chat-json",
+      "repeat": 1,
+      "label": "refund",
+      "probability": null,
+      "latencyMs": 1683,
+      "costUsd": 0.0000825,
+      "raw": "{\"decision\": \"refund\"}"
+    },
+    {
+      "ticketId": "t38",
+      "method": "decision",
+      "repeat": 1,
+      "label": null,
+      "probability": 0.04,
+      "latencyMs": 599,
+      "costUsd": 0.00002016,
+      "raw": "{\"qualifies\":{\"type\":\"noul\",\"noul\":0.04}}"
+    },
+    {
+      "ticketId": "t39",
+      "method": "decision",
+      "repeat": 1,
+      "label": null,
+      "probability": 0.04,
+      "latencyMs": 656,
+      "costUsd": 0.000020202,
+      "raw": "{\"qualifies\":{\"type\":\"noul\",\"noul\":0.04}}"
+    },
+    {
+      "ticketId": "t34",
+      "method": "chat-json",
+      "repeat": 1,
+      "label": "handoff",
+      "probability": null,
+      "latencyMs": 3095,
+      "costUsd": 0.0002096,
+      "raw": "{\"decision\": \"handoff\"}"
+    },
+    {
+      "ticketId": "t40",
+      "method": "decision",
+      "repeat": 1,
+      "label": null,
+      "probability": 0.16,
+      "latencyMs": 519,
+      "costUsd": 0.000019488,
+      "raw": "{\"qualifies\":{\"type\":\"noul\",\"noul\":0.16}}"
+    },
+    {
+      "ticketId": "t37",
+      "method": "chat-json",
+      "repeat": 1,
+      "label": "handoff",
+      "probability": null,
+      "latencyMs": 2669,
+      "costUsd": 0.0001815,
+      "raw": "{\"decision\": \"handoff\"}"
+    },
+    {
+      "ticketId": "t41",
+      "method": "decision",
+      "repeat": 1,
+      "label": null,
+      "probability": 0.04,
+      "latencyMs": 489,
+      "costUsd": 0.000019782,
+      "raw": "{\"qualifies\":{\"type\":\"noul\",\"noul\":0.04}}"
+    },
+    {
+      "ticketId": "t38",
+      "method": "chat-json",
+      "repeat": 1,
+      "label": "handoff",
+      "probability": null,
+      "latencyMs": 2547,
+      "costUsd": 0.0001872,
+      "raw": "{\"decision\": \"handoff\"}"
+    },
+    {
+      "ticketId": "t40",
+      "method": "chat-json",
+      "repeat": 1,
+      "label": "handoff",
+      "probability": null,
+      "latencyMs": 1719,
+      "costUsd": 0.0000795,
+      "raw": "{\"decision\": \"handoff\"}"
+    },
+    {
+      "ticketId": "t42",
+      "method": "decision",
+      "repeat": 1,
+      "label": null,
+      "probability": 0.03,
+      "latencyMs": 546,
+      "costUsd": 0.00001995,
+      "raw": "{\"qualifies\":{\"type\":\"noul\",\"noul\":0.03}}"
+    },
+    {
+      "ticketId": "t43",
+      "method": "decision",
+      "repeat": 1,
+      "label": null,
+      "probability": 0.04,
+      "latencyMs": 516,
+      "costUsd": 0.000019992,
+      "raw": "{\"qualifies\":{\"type\":\"noul\",\"noul\":0.04}}"
+    },
+    {
+      "ticketId": "t44",
+      "method": "decision",
+      "repeat": 1,
+      "label": null,
+      "probability": 0.83,
+      "latencyMs": 543,
+      "costUsd": 0.000020076,
+      "raw": "{\"qualifies\":{\"type\":\"noul\",\"noul\":0.83}}"
+    },
+    {
+      "ticketId": "t39",
+      "method": "chat-json",
+      "repeat": 1,
+      "label": "handoff",
+      "probability": null,
+      "latencyMs": 3284,
+      "costUsd": 0.0002048,
+      "raw": "{\"decision\": \"handoff\"}"
+    },
+    {
+      "ticketId": "t41",
+      "method": "chat-json",
+      "repeat": 1,
+      "label": "handoff",
+      "probability": null,
+      "latencyMs": 2457,
+      "costUsd": 0.000192,
+      "raw": "{\"decision\": \"handoff\"}"
+    },
+    {
+      "ticketId": "t42",
+      "method": "chat-json",
+      "repeat": 1,
+      "label": "handoff",
+      "probability": null,
+      "latencyMs": 2208,
+      "costUsd": 0.0001499,
+      "raw": "{\"decision\": \"handoff\"}"
+    },
+    {
+      "ticketId": "t45",
+      "method": "decision",
+      "repeat": 1,
+      "label": null,
+      "probability": 0.19,
+      "latencyMs": 677,
+      "costUsd": 0.00001953,
+      "raw": "{\"qualifies\":{\"type\":\"noul\",\"noul\":0.19}}"
+    },
+    {
+      "ticketId": "t46",
+      "method": "decision",
+      "repeat": 1,
+      "label": null,
+      "probability": 0.93,
+      "latencyMs": 487,
+      "costUsd": 0.00001974,
+      "raw": "{\"qualifies\":{\"type\":\"noul\",\"noul\":0.93}}"
+    },
+    {
+      "ticketId": "t43",
+      "method": "chat-json",
+      "repeat": 1,
+      "label": "handoff",
+      "probability": null,
+      "latencyMs": 2466,
+      "costUsd": 0.0001726,
+      "raw": "{\"decision\": \"handoff\"}"
+    },
+    {
+      "ticketId": "t47",
+      "method": "decision",
+      "repeat": 1,
+      "label": null,
+      "probability": 0.76,
+      "latencyMs": 381,
+      "costUsd": 0.000019824,
+      "raw": "{\"qualifies\":{\"type\":\"noul\",\"noul\":0.76}}"
+    },
+    {
+      "ticketId": "t44",
+      "method": "chat-json",
+      "repeat": 1,
+      "label": "refund",
+      "probability": null,
+      "latencyMs": 2369,
+      "costUsd": 0.0001639,
+      "raw": "{\"decision\": \"refund\"}"
+    },
+    {
+      "ticketId": "t45",
+      "method": "chat-json",
+      "repeat": 1,
+      "label": "handoff",
+      "probability": null,
+      "latencyMs": 1719,
+      "costUsd": 0.0000883,
+      "raw": "{\"decision\": \"handoff\"}"
+    },
+    {
+      "ticketId": "t48",
+      "method": "decision",
+      "repeat": 1,
+      "label": null,
+      "probability": 0.02,
+      "latencyMs": 346,
+      "costUsd": 0.000019992,
+      "raw": "{\"qualifies\":{\"type\":\"noul\",\"noul\":0.02}}"
+    },
+    {
+      "ticketId": "t46",
+      "method": "chat-json",
+      "repeat": 1,
+      "label": "refund",
+      "probability": null,
+      "latencyMs": 1609,
+      "costUsd": 0.0000785,
+      "raw": "{\"decision\": \"refund\"}"
+    },
+    {
+      "ticketId": "x01",
+      "method": "decision",
+      "repeat": 1,
+      "label": null,
+      "probability": 0.84,
+      "latencyMs": 320,
+      "costUsd": 0.000020034,
+      "raw": "{\"qualifies\":{\"type\":\"noul\",\"noul\":0.84}}"
+    },
+    {
+      "ticketId": "x02",
+      "method": "decision",
+      "repeat": 1,
+      "label": null,
+      "probability": 0.06,
+      "latencyMs": 326,
+      "costUsd": 0.00001953,
+      "raw": "{\"qualifies\":{\"type\":\"noul\",\"noul\":0.06}}"
+    },
+    {
+      "ticketId": "t48",
+      "method": "chat-json",
+      "repeat": 1,
+      "label": "handoff",
+      "probability": null,
+      "latencyMs": 1160,
+      "costUsd": 0.0000446,
+      "raw": "{\"decision\": \"handoff\"}"
+    },
+    {
+      "ticketId": "t47",
+      "method": "chat-json",
+      "repeat": 1,
+      "label": "refund",
+      "probability": null,
+      "latencyMs": 1662,
+      "costUsd": 0.0000995,
+      "raw": "{\"decision\": \"refund\"}"
+    },
+    {
+      "ticketId": "x03",
+      "method": "decision",
+      "repeat": 1,
+      "label": null,
+      "probability": 0.07,
+      "latencyMs": 418,
+      "costUsd": 0.000019614,
+      "raw": "{\"qualifies\":{\"type\":\"noul\",\"noul\":0.07}}"
+    },
+    {
+      "ticketId": "x04",
+      "method": "decision",
+      "repeat": 1,
+      "label": null,
+      "probability": 0.86,
+      "latencyMs": 391,
+      "costUsd": 0.000019782,
+      "raw": "{\"qualifies\":{\"type\":\"noul\",\"noul\":0.86}}"
+    },
+    {
+      "ticketId": "x02",
+      "method": "chat-json",
+      "repeat": 1,
+      "label": "handoff",
+      "probability": null,
+      "latencyMs": 1380,
+      "costUsd": 0.0000653,
+      "raw": "{\"decision\": \"handoff\"}"
+    },
+    {
+      "ticketId": "x05",
+      "method": "decision",
+      "repeat": 1,
+      "label": null,
+      "probability": 0.32,
+      "latencyMs": 306,
+      "costUsd": 0.000019908,
+      "raw": "{\"qualifies\":{\"type\":\"noul\",\"noul\":0.32}}"
+    },
+    {
+      "ticketId": "x01",
+      "method": "chat-json",
+      "repeat": 1,
+      "label": "refund",
+      "probability": null,
+      "latencyMs": 1797,
+      "costUsd": 0.0001115,
+      "raw": "{\"decision\": \"refund\"}"
+    },
+    {
+      "ticketId": "x06",
+      "method": "decision",
+      "repeat": 1,
+      "label": null,
+      "probability": 0.05,
+      "latencyMs": 307,
+      "costUsd": 0.000019488,
+      "raw": "{\"qualifies\":{\"type\":\"noul\",\"noul\":0.05}}"
+    },
+    {
+      "ticketId": "x07",
+      "method": "decision",
+      "repeat": 1,
+      "label": null,
+      "probability": 0.04,
+      "latencyMs": 329,
+      "costUsd": 0.000020076,
+      "raw": "{\"qualifies\":{\"type\":\"noul\",\"noul\":0.04}}"
+    },
+    {
+      "ticketId": "x04",
+      "method": "chat-json",
+      "repeat": 1,
+      "label": "refund",
+      "probability": null,
+      "latencyMs": 1605,
+      "costUsd": 0.0000964,
+      "raw": "{\"decision\": \"refund\"}"
+    },
+    {
+      "ticketId": "x06",
+      "method": "chat-json",
+      "repeat": 1,
+      "label": "handoff",
+      "probability": null,
+      "latencyMs": 1170,
+      "costUsd": 0.0000425,
+      "raw": "{\"decision\": \"handoff\"}"
+    },
+    {
+      "ticketId": "x08",
+      "method": "decision",
+      "repeat": 1,
+      "label": null,
+      "probability": 0.69,
+      "latencyMs": 352,
+      "costUsd": 0.000019866,
+      "raw": "{\"qualifies\":{\"type\":\"noul\",\"noul\":0.69}}"
+    },
+    {
+      "ticketId": "x03",
+      "method": "chat-json",
+      "repeat": 1,
+      "label": "handoff",
+      "probability": null,
+      "latencyMs": 2476,
+      "costUsd": 0.0001981,
+      "raw": "{\"decision\": \"handoff\"}"
+    },
+    {
+      "ticketId": "x09",
+      "method": "decision",
+      "repeat": 1,
+      "label": null,
+      "probability": 0.77,
+      "latencyMs": 302,
+      "costUsd": 0.00001974,
+      "raw": "{\"qualifies\":{\"type\":\"noul\",\"noul\":0.77}}"
+    },
+    {
+      "ticketId": "x10",
+      "method": "decision",
+      "repeat": 1,
+      "label": null,
+      "probability": 0.08,
+      "latencyMs": 321,
+      "costUsd": 0.000019446,
+      "raw": "{\"qualifies\":{\"type\":\"noul\",\"noul\":0.08}}"
+    },
+    {
+      "ticketId": "x05",
+      "method": "chat-json",
+      "repeat": 1,
+      "label": "handoff",
+      "probability": null,
+      "latencyMs": 2625,
+      "costUsd": 0.0002064,
+      "raw": "{\"decision\": \"handoff\"}"
+    },
+    {
+      "ticketId": "x07",
+      "method": "chat-json",
+      "repeat": 1,
+      "label": "handoff",
+      "probability": null,
+      "latencyMs": 2106,
+      "costUsd": 0.0001668,
+      "raw": "{\"decision\": \"handoff\"}"
+    },
+    {
+      "ticketId": "x11",
+      "method": "decision",
+      "repeat": 1,
+      "label": null,
+      "probability": 0.05,
+      "latencyMs": 370,
+      "costUsd": 0.00001995,
+      "raw": "{\"qualifies\":{\"type\":\"noul\",\"noul\":0.05}}"
+    },
+    {
+      "ticketId": "x08",
+      "method": "chat-json",
+      "repeat": 1,
+      "label": "refund",
+      "probability": null,
+      "latencyMs": 2040,
+      "costUsd": 0.0001577,
+      "raw": "{\"decision\": \"refund\"}"
+    },
+    {
+      "ticketId": "x10",
+      "method": "chat-json",
+      "repeat": 1,
+      "label": "handoff",
+      "probability": null,
+      "latencyMs": 1464,
+      "costUsd": 0.0000826,
+      "raw": "{\"decision\": \"handoff\"}"
+    },
+    {
+      "ticketId": "x12",
+      "method": "decision",
+      "repeat": 1,
+      "label": null,
+      "probability": 0.03,
+      "latencyMs": 330,
+      "costUsd": 0.000019656,
+      "raw": "{\"qualifies\":{\"type\":\"noul\",\"noul\":0.03}}"
+    },
+    {
+      "ticketId": "t01",
+      "method": "decision",
+      "repeat": 2,
+      "label": null,
+      "probability": 0.92,
+      "latencyMs": 337,
+      "costUsd": 0.000019782,
+      "raw": "{\"qualifies\":{\"type\":\"noul\",\"noul\":0.92}}"
+    },
+    {
+      "ticketId": "x09",
+      "method": "chat-json",
+      "repeat": 1,
+      "label": "refund",
+      "probability": null,
+      "latencyMs": 2156,
+      "costUsd": 0.0001676,
+      "raw": "{\"decision\": \"refund\"}"
+    },
+    {
+      "ticketId": "t02",
+      "method": "decision",
+      "repeat": 2,
+      "label": null,
+      "probability": 0.89,
+      "latencyMs": 327,
+      "costUsd": 0.00001995,
+      "raw": "{\"qualifies\":{\"type\":\"noul\",\"noul\":0.89}}"
+    },
+    {
+      "ticketId": "x12",
+      "method": "chat-json",
+      "repeat": 1,
+      "label": "handoff",
+      "probability": null,
+      "latencyMs": 1166,
+      "costUsd": 0.0000442,
+      "raw": "{\"decision\": \"handoff\"}"
+    },
+    {
+      "ticketId": "t03",
+      "method": "decision",
+      "repeat": 2,
+      "label": null,
+      "probability": 0.04,
+      "latencyMs": 365,
+      "costUsd": 0.000020076,
+      "raw": "{\"qualifies\":{\"type\":\"noul\",\"noul\":0.04}}"
+    },
+    {
+      "ticketId": "t04",
+      "method": "decision",
+      "repeat": 2,
+      "label": null,
+      "probability": 0.9,
+      "latencyMs": 339,
+      "costUsd": 0.00001995,
+      "raw": "{\"qualifies\":{\"type\":\"noul\",\"noul\":0.9}}"
+    },
+    {
+      "ticketId": "t01",
+      "method": "chat-json",
+      "repeat": 2,
+      "label": "refund",
+      "probability": null,
+      "latencyMs": 1570,
+      "costUsd": 0.0000977,
+      "raw": "{\"decision\": \"refund\"}"
+    },
+    {
+      "ticketId": "t05",
+      "method": "decision",
+      "repeat": 2,
+      "label": null,
+      "probability": 0.04,
+      "latencyMs": 327,
+      "costUsd": 0.000019572,
+      "raw": "{\"qualifies\":{\"type\":\"noul\",\"noul\":0.04}}"
+    },
+    {
+      "ticketId": "t02",
+      "method": "chat-json",
+      "repeat": 2,
+      "label": "refund",
+      "probability": null,
+      "latencyMs": 1857,
+      "costUsd": 0.0000787,
+      "raw": "{\"decision\": \"refund\"}"
+    },
+    {
+      "ticketId": "t06",
+      "method": "decision",
+      "repeat": 2,
+      "label": null,
+      "probability": 0.93,
+      "latencyMs": 278,
+      "costUsd": 0.000019782,
+      "raw": "{\"qualifies\":{\"type\":\"noul\",\"noul\":0.93}}"
+    },
+    {
+      "ticketId": "t04",
+      "method": "chat-json",
+      "repeat": 2,
+      "label": "refund",
+      "probability": null,
+      "latencyMs": 1537,
+      "costUsd": 0.0000845,
+      "raw": "{\"decision\": \"refund\"}"
+    },
+    {
+      "ticketId": "x11",
+      "method": "chat-json",
+      "repeat": 1,
+      "label": "handoff",
+      "probability": null,
+      "latencyMs": 3249,
+      "costUsd": 0.0002173,
+      "raw": "{\"decision\": \"handoff\"}"
+    },
+    {
+      "ticketId": "t07",
+      "method": "decision",
+      "repeat": 2,
+      "label": null,
+      "probability": 0.88,
+      "latencyMs": 299,
+      "costUsd": 0.000020202,
+      "raw": "{\"qualifies\":{\"type\":\"noul\",\"noul\":0.88}}"
+    },
+    {
+      "ticketId": "t03",
+      "method": "chat-json",
+      "repeat": 2,
+      "label": "handoff",
+      "probability": null,
+      "latencyMs": 2235,
+      "costUsd": 0.0001737,
+      "raw": "{\"decision\": \"handoff\"}"
+    },
+    {
+      "ticketId": "t08",
+      "method": "decision",
+      "repeat": 2,
+      "label": null,
+      "probability": 0.04,
+      "latencyMs": 322,
+      "costUsd": 0.000020076,
+      "raw": "{\"qualifies\":{\"type\":\"noul\",\"noul\":0.04}}"
+    },
+    {
+      "ticketId": "t09",
+      "method": "decision",
+      "repeat": 2,
+      "label": null,
+      "probability": 0.83,
+      "latencyMs": 434,
+      "costUsd": 0.000019992,
+      "raw": "{\"qualifies\":{\"type\":\"noul\",\"noul\":0.83}}"
+    },
+    {
+      "ticketId": "t06",
+      "method": "chat-json",
+      "repeat": 2,
+      "label": "refund",
+      "probability": null,
+      "latencyMs": 1574,
+      "costUsd": 0.0000973,
+      "raw": "{\"decision\": \"refund\"}"
+    },
+    {
+      "ticketId": "t05",
+      "method": "chat-json",
+      "repeat": 2,
+      "label": "handoff",
+      "probability": null,
+      "latencyMs": 2215,
+      "costUsd": 0.0001569,
+      "raw": "{\"decision\": \"handoff\"}"
+    },
+    {
+      "ticketId": "t07",
+      "method": "chat-json",
+      "repeat": 2,
+      "label": "refund",
+      "probability": null,
+      "latencyMs": 1452,
+      "costUsd": 0.0000993,
+      "raw": "{\"decision\": \"refund\"}"
+    },
+    {
+      "ticketId": "t10",
+      "method": "decision",
+      "repeat": 2,
+      "label": null,
+      "probability": 0.04,
+      "latencyMs": 308,
+      "costUsd": 0.000019446,
+      "raw": "{\"qualifies\":{\"type\":\"noul\",\"noul\":0.04}}"
+    },
+    {
+      "ticketId": "t11",
+      "method": "decision",
+      "repeat": 2,
+      "label": null,
+      "probability": 0.93,
+      "latencyMs": 340,
+      "costUsd": 0.000019656,
+      "raw": "{\"qualifies\":{\"type\":\"noul\",\"noul\":0.93}}"
+    },
+    {
+      "ticketId": "t12",
+      "method": "decision",
+      "repeat": 2,
+      "label": null,
+      "probability": 0.04,
+      "latencyMs": 280,
+      "costUsd": 0.000020202,
+      "raw": "{\"qualifies\":{\"type\":\"noul\",\"noul\":0.04}}"
+    },
+    {
+      "ticketId": "t09",
+      "method": "chat-json",
+      "repeat": 2,
+      "label": "refund",
+      "probability": null,
+      "latencyMs": 1488,
+      "costUsd": 0.0000946,
+      "raw": "{\"decision\": \"refund\"}"
+    },
+    {
+      "ticketId": "t13",
+      "method": "decision",
+      "repeat": 2,
+      "label": null,
+      "probability": 0.04,
+      "latencyMs": 304,
+      "costUsd": 0.000019992,
+      "raw": "{\"qualifies\":{\"type\":\"noul\",\"noul\":0.04}}"
+    },
+    {
+      "ticketId": "t08",
+      "method": "chat-json",
+      "repeat": 2,
+      "label": "handoff",
+      "probability": null,
+      "latencyMs": 2312,
+      "costUsd": 0.0001882,
+      "raw": "{\"decision\": \"handoff\"}"
+    },
+    {
+      "ticketId": "t14",
+      "method": "decision",
+      "repeat": 2,
+      "label": null,
+      "probability": 0.84,
+      "latencyMs": 337,
+      "costUsd": 0.000020034,
+      "raw": "{\"qualifies\":{\"type\":\"noul\",\"noul\":0.84}}"
+    },
+    {
+      "ticketId": "t11",
+      "method": "chat-json",
+      "repeat": 2,
+      "label": "refund",
+      "probability": null,
+      "latencyMs": 1526,
+      "costUsd": 0.0000813,
+      "raw": "{\"decision\": \"refund\"}"
+    },
+    {
+      "ticketId": "t15",
+      "method": "decision",
+      "repeat": 2,
+      "label": null,
+      "probability": 0.16,
+      "latencyMs": 348,
+      "costUsd": 0.000019446,
+      "raw": "{\"qualifies\":{\"type\":\"noul\",\"noul\":0.16}}"
+    },
+    {
+      "ticketId": "t12",
+      "method": "chat-json",
+      "repeat": 2,
+      "label": "handoff",
+      "probability": null,
+      "latencyMs": 1915,
+      "costUsd": 0.000128,
+      "raw": "{\"decision\": \"handoff\"}"
+    },
+    {
+      "ticketId": "t10",
+      "method": "chat-json",
+      "repeat": 2,
+      "label": "handoff",
+      "probability": null,
+      "latencyMs": 2345,
+      "costUsd": 0.0001405,
+      "raw": "{\"decision\": \"handoff\"}"
+    },
+    {
+      "ticketId": "t16",
+      "method": "decision",
+      "repeat": 2,
+      "label": null,
+      "probability": 0.91,
+      "latencyMs": 320,
+      "costUsd": 0.00001974,
+      "raw": "{\"qualifies\":{\"type\":\"noul\",\"noul\":0.91}}"
+    },
+    {
+      "ticketId": "t14",
+      "method": "chat-json",
+      "repeat": 2,
+      "label": "refund",
+      "probability": null,
+      "latencyMs": 1578,
+      "costUsd": 0.0000938,
+      "raw": "{\"decision\": \"refund\"}"
+    },
+    {
+      "ticketId": "t17",
+      "method": "decision",
+      "repeat": 2,
+      "label": null,
+      "probability": 0.87,
+      "latencyMs": 295,
+      "costUsd": 0.000019908,
+      "raw": "{\"qualifies\":{\"type\":\"noul\",\"noul\":0.87}}"
+    },
+    {
+      "ticketId": "t13",
+      "method": "chat-json",
+      "repeat": 2,
+      "label": "handoff",
+      "probability": null,
+      "latencyMs": 2151,
+      "costUsd": 0.0001585,
+      "raw": "{\"decision\": \"handoff\"}"
+    },
+    {
+      "ticketId": "t18",
+      "method": "decision",
+      "repeat": 2,
+      "label": null,
+      "probability": 0.04,
+      "latencyMs": 330,
+      "costUsd": 0.000020034,
+      "raw": "{\"qualifies\":{\"type\":\"noul\",\"noul\":0.04}}"
+    },
+    {
+      "ticketId": "t15",
+      "method": "chat-json",
+      "repeat": 2,
+      "label": "handoff",
+      "probability": null,
+      "latencyMs": 1660,
+      "costUsd": 0.0000862,
+      "raw": "{\"decision\": \"handoff\"}"
+    },
+    {
+      "ticketId": "t19",
+      "method": "decision",
+      "repeat": 2,
+      "label": null,
+      "probability": 0.04,
+      "latencyMs": 335,
+      "costUsd": 0.00001995,
+      "raw": "{\"qualifies\":{\"type\":\"noul\",\"noul\":0.04}}"
+    },
+    {
+      "ticketId": "t16",
+      "method": "chat-json",
+      "repeat": 2,
+      "label": "refund",
+      "probability": null,
+      "latencyMs": 1490,
+      "costUsd": 0.0000938,
+      "raw": "{\"decision\": \"refund\"}"
+    },
+    {
+      "ticketId": "t17",
+      "method": "chat-json",
+      "repeat": 2,
+      "label": "refund",
+      "probability": null,
+      "latencyMs": 1581,
+      "costUsd": 0.0000968,
+      "raw": "{\"decision\": \"refund\"}"
+    },
+    {
+      "ticketId": "t20",
+      "method": "decision",
+      "repeat": 2,
+      "label": null,
+      "probability": 0.17,
+      "latencyMs": 383,
+      "costUsd": 0.000019572,
+      "raw": "{\"qualifies\":{\"type\":\"noul\",\"noul\":0.17}}"
+    },
+    {
+      "ticketId": "t21",
+      "method": "decision",
+      "repeat": 2,
+      "label": null,
+      "probability": 0.89,
+      "latencyMs": 339,
+      "costUsd": 0.000019782,
+      "raw": "{\"qualifies\":{\"type\":\"noul\",\"noul\":0.89}}"
+    },
+    {
+      "ticketId": "t22",
+      "method": "decision",
+      "repeat": 2,
+      "label": null,
+      "probability": 0.04,
+      "latencyMs": 307,
+      "costUsd": 0.000019992,
+      "raw": "{\"qualifies\":{\"type\":\"noul\",\"noul\":0.04}}"
+    },
+    {
+      "ticketId": "t20",
+      "method": "chat-json",
+      "repeat": 2,
+      "label": "handoff",
+      "probability": null,
+      "latencyMs": 1414,
+      "costUsd": 0.0000859,
+      "raw": "{\"decision\": \"handoff\"}"
+    },
+    {
+      "ticketId": "t23",
+      "method": "decision",
+      "repeat": 2,
+      "label": null,
+      "probability": 0.03,
+      "latencyMs": 307,
+      "costUsd": 0.000020118,
+      "raw": "{\"qualifies\":{\"type\":\"noul\",\"noul\":0.03}}"
+    },
+    {
+      "ticketId": "t21",
+      "method": "chat-json",
+      "repeat": 2,
+      "label": "refund",
+      "probability": null,
+      "latencyMs": 1581,
+      "costUsd": 0.000102,
+      "raw": "{\"decision\": \"refund\"}"
+    },
+    {
+      "ticketId": "t18",
+      "method": "chat-json",
+      "repeat": 2,
+      "label": "handoff",
+      "probability": null,
+      "latencyMs": 2531,
+      "costUsd": 0.0001947,
+      "raw": "{\"decision\": \"handoff\"}"
+    },
+    {
+      "ticketId": "t24",
+      "method": "decision",
+      "repeat": 2,
+      "label": null,
+      "probability": 0.04,
+      "latencyMs": 285,
+      "costUsd": 0.000020118,
+      "raw": "{\"qualifies\":{\"type\":\"noul\",\"noul\":0.04}}"
+    },
+    {
+      "ticketId": "t19",
+      "method": "chat-json",
+      "repeat": 2,
+      "label": "handoff",
+      "probability": null,
+      "latencyMs": 2462,
+      "costUsd": 0.0001933,
+      "raw": "{\"decision\": \"handoff\"}"
+    },
+    {
+      "ticketId": "t25",
+      "method": "decision",
+      "repeat": 2,
+      "label": null,
+      "probability": 0.04,
+      "latencyMs": 282,
+      "costUsd": 0.000019614,
+      "raw": "{\"qualifies\":{\"type\":\"noul\",\"noul\":0.04}}"
+    },
+    {
+      "ticketId": "t26",
+      "method": "decision",
+      "repeat": 2,
+      "label": null,
+      "probability": 0.04,
+      "latencyMs": 310,
+      "costUsd": 0.00001974,
+      "raw": "{\"qualifies\":{\"type\":\"noul\",\"noul\":0.04}}"
+    },
+    {
+      "ticketId": "t22",
+      "method": "chat-json",
+      "repeat": 2,
+      "label": "handoff",
+      "probability": null,
+      "latencyMs": 2272,
+      "costUsd": 0.0001802,
+      "raw": "{\"decision\": \"handoff\"}"
+    },
+    {
+      "ticketId": "t27",
+      "method": "decision",
+      "repeat": 2,
+      "label": null,
+      "probability": 0.9,
+      "latencyMs": 469,
+      "costUsd": 0.000019782,
+      "raw": "{\"qualifies\":{\"type\":\"noul\",\"noul\":0.9}}"
+    },
+    {
+      "ticketId": "t23",
+      "method": "chat-json",
+      "repeat": 2,
+      "label": "handoff",
+      "probability": null,
+      "latencyMs": 2295,
+      "costUsd": 0.000165,
+      "raw": "{\"decision\": \"handoff\"}"
+    },
+    {
+      "ticketId": "t24",
+      "method": "chat-json",
+      "repeat": 2,
+      "label": "handoff",
+      "probability": null,
+      "latencyMs": 2088,
+      "costUsd": 0.0001589,
+      "raw": "{\"decision\": \"handoff\"}"
+    },
+    {
+      "ticketId": "t28",
+      "method": "decision",
+      "repeat": 2,
+      "label": null,
+      "probability": 0.04,
+      "latencyMs": 341,
+      "costUsd": 0.000019908,
+      "raw": "{\"qualifies\":{\"type\":\"noul\",\"noul\":0.04}}"
+    },
+    {
+      "ticketId": "t29",
+      "method": "decision",
+      "repeat": 2,
+      "label": null,
+      "probability": 0.9,
+      "latencyMs": 297,
+      "costUsd": 0.000020244,
+      "raw": "{\"qualifies\":{\"type\":\"noul\",\"noul\":0.9}}"
+    },
+    {
+      "ticketId": "t26",
+      "method": "chat-json",
+      "repeat": 2,
+      "label": "handoff",
+      "probability": null,
+      "latencyMs": 2010,
+      "costUsd": 0.000142,
+      "raw": "{\"decision\": \"handoff\"}"
+    },
+    {
+      "ticketId": "t25",
+      "method": "chat-json",
+      "repeat": 2,
+      "label": "handoff",
+      "probability": null,
+      "latencyMs": 2240,
+      "costUsd": 0.0001622,
+      "raw": "{\"decision\": \"handoff\"}"
+    },
+    {
+      "ticketId": "t27",
+      "method": "chat-json",
+      "repeat": 2,
+      "label": "refund",
+      "probability": null,
+      "latencyMs": 1554,
+      "costUsd": 0.0000985,
+      "raw": "{\"decision\": \"refund\"}"
+    },
+    {
+      "ticketId": "t30",
+      "method": "decision",
+      "repeat": 2,
+      "label": null,
+      "probability": 0.04,
+      "latencyMs": 301,
+      "costUsd": 0.000019488,
+      "raw": "{\"qualifies\":{\"type\":\"noul\",\"noul\":0.04}}"
+    },
+    {
+      "ticketId": "t31",
+      "method": "decision",
+      "repeat": 2,
+      "label": null,
+      "probability": 0.03,
+      "latencyMs": 291,
+      "costUsd": 0.000019866,
+      "raw": "{\"qualifies\":{\"type\":\"noul\",\"noul\":0.03}}"
+    },
+    {
+      "ticketId": "t32",
+      "method": "decision",
+      "repeat": 2,
+      "label": null,
+      "probability": 0.86,
+      "latencyMs": 310,
+      "costUsd": 0.00002016,
+      "raw": "{\"qualifies\":{\"type\":\"noul\",\"noul\":0.86}}"
+    },
+    {
+      "ticketId": "t29",
+      "method": "chat-json",
+      "repeat": 2,
+      "label": "refund",
+      "probability": null,
+      "latencyMs": 1672,
+      "costUsd": 0.0001094,
+      "raw": "{\"decision\": \"refund\"}"
+    },
+    {
+      "ticketId": "t28",
+      "method": "chat-json",
+      "repeat": 2,
+      "label": "handoff",
+      "probability": null,
+      "latencyMs": 2250,
+      "costUsd": 0.0001874,
+      "raw": "{\"decision\": \"handoff\"}"
+    },
+    {
+      "ticketId": "t33",
+      "method": "decision",
+      "repeat": 2,
+      "label": null,
+      "probability": 0.02,
+      "latencyMs": 309,
+      "costUsd": 0.000020034,
+      "raw": "{\"qualifies\":{\"type\":\"noul\",\"noul\":0.02}}"
+    },
+    {
+      "ticketId": "t32",
+      "method": "chat-json",
+      "repeat": 2,
+      "label": "refund",
+      "probability": null,
+      "latencyMs": 1571,
+      "costUsd": 0.0000989,
+      "raw": "{\"decision\": \"refund\"}"
+    },
+    {
+      "ticketId": "t34",
+      "method": "decision",
+      "repeat": 2,
+      "label": null,
+      "probability": 0.04,
+      "latencyMs": 340,
+      "costUsd": 0.000020328,
+      "raw": "{\"qualifies\":{\"type\":\"noul\",\"noul\":0.04}}"
+    },
+    {
+      "ticketId": "t30",
+      "method": "chat-json",
+      "repeat": 2,
+      "label": "handoff",
+      "probability": null,
+      "latencyMs": 2060,
+      "costUsd": 0.0001533,
+      "raw": "{\"decision\": \"handoff\"}"
+    },
+    {
+      "ticketId": "t31",
+      "method": "chat-json",
+      "repeat": 2,
+      "label": "handoff",
+      "probability": null,
+      "latencyMs": 2163,
+      "costUsd": 0.0001605,
+      "raw": "{\"decision\": \"handoff\"}"
+    },
+    {
+      "ticketId": "t35",
+      "method": "decision",
+      "repeat": 2,
+      "label": null,
+      "probability": 0.17,
+      "latencyMs": 348,
+      "costUsd": 0.000019446,
+      "raw": "{\"qualifies\":{\"type\":\"noul\",\"noul\":0.17}}"
+    },
+    {
+      "ticketId": "t36",
+      "method": "decision",
+      "repeat": 2,
+      "label": null,
+      "probability": 0.93,
+      "latencyMs": 369,
+      "costUsd": 0.000019824,
+      "raw": "{\"qualifies\":{\"type\":\"noul\",\"noul\":0.93}}"
+    },
+    {
+      "ticketId": "t33",
+      "method": "chat-json",
+      "repeat": 2,
+      "label": "handoff",
+      "probability": null,
+      "latencyMs": 2103,
+      "costUsd": 0.0001607,
+      "raw": "{\"decision\": \"handoff\"}"
+    },
+    {
+      "ticketId": "t37",
+      "method": "decision",
+      "repeat": 2,
+      "label": null,
+      "probability": 0.04,
+      "latencyMs": 331,
+      "costUsd": 0.000020202,
+      "raw": "{\"qualifies\":{\"type\":\"noul\",\"noul\":0.04}}"
+    },
+    {
+      "ticketId": "t38",
+      "method": "decision",
+      "repeat": 2,
+      "label": null,
+      "probability": 0.04,
+      "latencyMs": 285,
+      "costUsd": 0.00002016,
+      "raw": "{\"qualifies\":{\"type\":\"noul\",\"noul\":0.04}}"
+    },
+    {
+      "ticketId": "t35",
+      "method": "chat-json",
+      "repeat": 2,
+      "label": "handoff",
+      "probability": null,
+      "latencyMs": 1524,
+      "costUsd": 0.0000893,
+      "raw": "{\"decision\": \"handoff\"}"
+    },
+    {
+      "ticketId": "t39",
+      "method": "decision",
+      "repeat": 2,
+      "label": null,
+      "probability": 0.04,
+      "latencyMs": 276,
+      "costUsd": 0.000020202,
+      "raw": "{\"qualifies\":{\"type\":\"noul\",\"noul\":0.04}}"
+    },
+    {
+      "ticketId": "t36",
+      "method": "chat-json",
+      "repeat": 2,
+      "label": "refund",
+      "probability": null,
+      "latencyMs": 1772,
+      "costUsd": 0.0000785,
+      "raw": "{\"decision\": \"refund\"}"
+    },
+    {
+      "ticketId": "t34",
+      "method": "chat-json",
+      "repeat": 2,
+      "label": "handoff",
+      "probability": null,
+      "latencyMs": 2483,
+      "costUsd": 0.0001896,
+      "raw": "{\"decision\": \"handoff\"}"
+    },
+    {
+      "ticketId": "t40",
+      "method": "decision",
+      "repeat": 2,
+      "label": null,
+      "probability": 0.17,
+      "latencyMs": 317,
+      "costUsd": 0.000019488,
+      "raw": "{\"qualifies\":{\"type\":\"noul\",\"noul\":0.17}}"
+    },
+    {
+      "ticketId": "t41",
+      "method": "decision",
+      "repeat": 2,
+      "label": null,
+      "probability": 0.04,
+      "latencyMs": 275,
+      "costUsd": 0.000019782,
+      "raw": "{\"qualifies\":{\"type\":\"noul\",\"noul\":0.04}}"
+    },
+    {
+      "ticketId": "t37",
+      "method": "chat-json",
+      "repeat": 2,
+      "label": "handoff",
+      "probability": null,
+      "latencyMs": 2470,
+      "costUsd": 0.000194,
+      "raw": "{\"decision\": \"handoff\"}"
+    },
+    {
+      "ticketId": "t42",
+      "method": "decision",
+      "repeat": 2,
+      "label": null,
+      "probability": 0.03,
+      "latencyMs": 275,
+      "costUsd": 0.00001995,
+      "raw": "{\"qualifies\":{\"type\":\"noul\",\"noul\":0.03}}"
+    },
+    {
+      "ticketId": "t40",
+      "method": "chat-json",
+      "repeat": 2,
+      "label": "handoff",
+      "probability": null,
+      "latencyMs": 1342,
+      "costUsd": 0.0000815,
+      "raw": "{\"decision\": \"handoff\"}"
+    },
+    {
+      "ticketId": "t38",
+      "method": "chat-json",
+      "repeat": 2,
+      "label": "handoff",
+      "probability": null,
+      "latencyMs": 2435,
+      "costUsd": 0.0001737,
+      "raw": "{\"decision\": \"handoff\"}"
+    },
+    {
+      "ticketId": "t43",
+      "method": "decision",
+      "repeat": 2,
+      "label": null,
+      "probability": 0.04,
+      "latencyMs": 316,
+      "costUsd": 0.000019992,
+      "raw": "{\"qualifies\":{\"type\":\"noul\",\"noul\":0.04}}"
+    },
+    {
+      "ticketId": "t39",
+      "method": "chat-json",
+      "repeat": 2,
+      "label": "handoff",
+      "probability": null,
+      "latencyMs": 2215,
+      "costUsd": 0.0001773,
+      "raw": "{\"decision\": \"handoff\"}"
+    },
+    {
+      "ticketId": "t44",
+      "method": "decision",
+      "repeat": 2,
+      "label": null,
+      "probability": 0.85,
+      "latencyMs": 347,
+      "costUsd": 0.000020076,
+      "raw": "{\"qualifies\":{\"type\":\"noul\",\"noul\":0.85}}"
+    },
+    {
+      "ticketId": "t45",
+      "method": "decision",
+      "repeat": 2,
+      "label": null,
+      "probability": 0.17,
+      "latencyMs": 304,
+      "costUsd": 0.00001953,
+      "raw": "{\"qualifies\":{\"type\":\"noul\",\"noul\":0.17}}"
+    },
+    {
+      "ticketId": "t41",
+      "method": "chat-json",
+      "repeat": 2,
+      "label": "handoff",
+      "probability": null,
+      "latencyMs": 2284,
+      "costUsd": 0.0001785,
+      "raw": "{\"decision\": \"handoff\"}"
+    },
+    {
+      "ticketId": "t46",
+      "method": "decision",
+      "repeat": 2,
+      "label": null,
+      "probability": 0.93,
+      "latencyMs": 387,
+      "costUsd": 0.00001974,
+      "raw": "{\"qualifies\":{\"type\":\"noul\",\"noul\":0.93}}"
+    },
+    {
+      "ticketId": "t42",
+      "method": "chat-json",
+      "repeat": 2,
+      "label": "handoff",
+      "probability": null,
+      "latencyMs": 2973,
+      "costUsd": 0.0001974,
+      "raw": "{\"decision\": \"handoff\"}"
+    },
+    {
+      "ticketId": "t46",
+      "method": "chat-json",
+      "repeat": 2,
+      "label": "refund",
+      "probability": null,
+      "latencyMs": 1444,
+      "costUsd": 0.0000805,
+      "raw": "{\"decision\": \"refund\"}"
+    },
+    {
+      "ticketId": "t44",
+      "method": "chat-json",
+      "repeat": 2,
+      "label": "refund",
+      "probability": null,
+      "latencyMs": 2336,
+      "costUsd": 0.0001799,
+      "raw": "{\"decision\": \"refund\"}"
+    },
+    {
+      "ticketId": "t45",
+      "method": "chat-json",
+      "repeat": 2,
+      "label": "handoff",
+      "probability": null,
+      "latencyMs": 2208,
+      "costUsd": 0.0000948,
+      "raw": "{\"decision\": \"handoff\"}"
+    },
+    {
+      "ticketId": "t47",
+      "method": "decision",
+      "repeat": 2,
+      "label": null,
+      "probability": 0.77,
+      "latencyMs": 310,
+      "costUsd": 0.000019824,
+      "raw": "{\"qualifies\":{\"type\":\"noul\",\"noul\":0.77}}"
+    },
+    {
+      "ticketId": "t43",
+      "method": "chat-json",
+      "repeat": 2,
+      "label": "handoff",
+      "probability": null,
+      "latencyMs": 2874,
+      "costUsd": 0.0002406,
+      "raw": "{\"decision\": \"handoff\"}"
+    },
+    {
+      "ticketId": "t48",
+      "method": "decision",
+      "repeat": 2,
+      "label": null,
+      "probability": 0.03,
+      "latencyMs": 337,
+      "costUsd": 0.000019992,
+      "raw": "{\"qualifies\":{\"type\":\"noul\",\"noul\":0.03}}"
+    },
+    {
+      "ticketId": "x01",
+      "method": "decision",
+      "repeat": 2,
+      "label": null,
+      "probability": 0.81,
+      "latencyMs": 331,
+      "costUsd": 0.000020034,
+      "raw": "{\"qualifies\":{\"type\":\"noul\",\"noul\":0.81}}"
+    },
+    {
+      "ticketId": "x02",
+      "method": "decision",
+      "repeat": 2,
+      "label": null,
+      "probability": 0.06,
+      "latencyMs": 294,
+      "costUsd": 0.00001953,
+      "raw": "{\"qualifies\":{\"type\":\"noul\",\"noul\":0.06}}"
+    },
+    {
+      "ticketId": "t47",
+      "method": "chat-json",
+      "repeat": 2,
+      "label": "refund",
+      "probability": null,
+      "latencyMs": 1680,
+      "costUsd": 0.000107,
+      "raw": "{\"decision\": \"refund\"}"
+    },
+    {
+      "ticketId": "x03",
+      "method": "decision",
+      "repeat": 2,
+      "label": null,
+      "probability": 0.07,
+      "latencyMs": 363,
+      "costUsd": 0.000019614,
+      "raw": "{\"qualifies\":{\"type\":\"noul\",\"noul\":0.07}}"
+    },
+    {
+      "ticketId": "x04",
+      "method": "decision",
+      "repeat": 2,
+      "label": null,
+      "probability": 0.87,
+      "latencyMs": 329,
+      "costUsd": 0.000019782,
+      "raw": "{\"qualifies\":{\"type\":\"noul\",\"noul\":0.87}}"
+    },
+    {
+      "ticketId": "x02",
+      "method": "chat-json",
+      "repeat": 2,
+      "label": "handoff",
+      "probability": null,
+      "latencyMs": 1486,
+      "costUsd": 0.0000658,
+      "raw": "{\"decision\": \"handoff\"}"
+    },
+    {
+      "ticketId": "x05",
+      "method": "decision",
+      "repeat": 2,
+      "label": null,
+      "probability": 0.34,
+      "latencyMs": 348,
+      "costUsd": 0.000019908,
+      "raw": "{\"qualifies\":{\"type\":\"noul\",\"noul\":0.34}}"
+    },
+    {
+      "ticketId": "t48",
+      "method": "chat-json",
+      "repeat": 2,
+      "label": "handoff",
+      "probability": null,
+      "latencyMs": 2383,
+      "costUsd": 0.0001601,
+      "raw": "{\"decision\": \"handoff\"}"
+    },
+    {
+      "ticketId": "x01",
+      "method": "chat-json",
+      "repeat": 2,
+      "label": "refund",
+      "probability": null,
+      "latencyMs": 2268,
+      "costUsd": 0.000165,
+      "raw": "{\"decision\": \"refund\"}"
+    },
+    {
+      "ticketId": "x04",
+      "method": "chat-json",
+      "repeat": 2,
+      "label": "refund",
+      "probability": null,
+      "latencyMs": 1728,
+      "costUsd": 0.0001024,
+      "raw": "{\"decision\": \"refund\"}"
+    },
+    {
+      "ticketId": "x03",
+      "method": "chat-json",
+      "repeat": 2,
+      "label": "handoff",
+      "probability": null,
+      "latencyMs": 2247,
+      "costUsd": 0.0001821,
+      "raw": "{\"decision\": \"handoff\"}"
+    },
+    {
+      "ticketId": "x06",
+      "method": "decision",
+      "repeat": 2,
+      "label": null,
+      "probability": 0.06,
+      "latencyMs": 392,
+      "costUsd": 0.000019488,
+      "raw": "{\"qualifies\":{\"type\":\"noul\",\"noul\":0.06}}"
+    },
+    {
+      "ticketId": "x07",
+      "method": "decision",
+      "repeat": 2,
+      "label": null,
+      "probability": 0.04,
+      "latencyMs": 382,
+      "costUsd": 0.000020076,
+      "raw": "{\"qualifies\":{\"type\":\"noul\",\"noul\":0.04}}"
+    },
+    {
+      "ticketId": "x08",
+      "method": "decision",
+      "repeat": 2,
+      "label": null,
+      "probability": 0.71,
+      "latencyMs": 442,
+      "costUsd": 0.000019866,
+      "raw": "{\"qualifies\":{\"type\":\"noul\",\"noul\":0.71}}"
+    },
+    {
+      "ticketId": "x06",
+      "method": "chat-json",
+      "repeat": 2,
+      "label": "handoff",
+      "probability": null,
+      "latencyMs": 1148,
+      "costUsd": 0.0000425,
+      "raw": "{\"decision\": \"handoff\"}"
+    },
+    {
+      "ticketId": "x09",
+      "method": "decision",
+      "repeat": 2,
+      "label": null,
+      "probability": 0.72,
+      "latencyMs": 499,
+      "costUsd": 0.00001974,
+      "raw": "{\"qualifies\":{\"type\":\"noul\",\"noul\":0.72}}"
+    },
+    {
+      "ticketId": "x05",
+      "method": "chat-json",
+      "repeat": 2,
+      "label": "handoff",
+      "probability": null,
+      "latencyMs": 2464,
+      "costUsd": 0.0001849,
+      "raw": "{\"decision\": \"handoff\"}"
+    },
+    {
+      "ticketId": "x10",
+      "method": "decision",
+      "repeat": 2,
+      "label": null,
+      "probability": 0.08,
+      "latencyMs": 502,
+      "costUsd": 0.000019446,
+      "raw": "{\"qualifies\":{\"type\":\"noul\",\"noul\":0.08}}"
+    },
+    {
+      "ticketId": "x11",
+      "method": "decision",
+      "repeat": 2,
+      "label": null,
+      "probability": 0.05,
+      "latencyMs": 501,
+      "costUsd": 0.00001995,
+      "raw": "{\"qualifies\":{\"type\":\"noul\",\"noul\":0.05}}"
+    },
+    {
+      "ticketId": "x07",
+      "method": "chat-json",
+      "repeat": 2,
+      "label": "handoff",
+      "probability": null,
+      "latencyMs": 2443,
+      "costUsd": 0.0001768,
+      "raw": "{\"decision\": \"handoff\"}"
+    },
+    {
+      "ticketId": "x08",
+      "method": "chat-json",
+      "repeat": 2,
+      "label": "refund",
+      "probability": null,
+      "latencyMs": 2409,
+      "costUsd": 0.0001632,
+      "raw": "{\"decision\": \"refund\"}"
+    },
+    {
+      "ticketId": "x10",
+      "method": "chat-json",
+      "repeat": 2,
+      "label": "handoff",
+      "probability": null,
+      "latencyMs": 1770,
+      "costUsd": 0.0000896,
+      "raw": "{\"decision\": \"handoff\"}"
+    },
+    {
+      "ticketId": "x11",
+      "method": "chat-json",
+      "repeat": 2,
+      "label": "handoff",
+      "probability": null,
+      "latencyMs": 1306,
+      "costUsd": 0.0000443,
+      "raw": "{\"decision\": \"handoff\"}"
+    },
+    {
+      "ticketId": "x12",
+      "method": "decision",
+      "repeat": 2,
+      "label": null,
+      "probability": 0.03,
+      "latencyMs": 494,
+      "costUsd": 0.000019656,
+      "raw": "{\"qualifies\":{\"type\":\"noul\",\"noul\":0.03}}"
+    },
+    {
+      "ticketId": "t01",
+      "method": "decision",
+      "repeat": 3,
+      "label": null,
+      "probability": 0.93,
+      "latencyMs": 359,
+      "costUsd": 0.000019782,
+      "raw": "{\"qualifies\":{\"type\":\"noul\",\"noul\":0.93}}"
+    },
+    {
+      "ticketId": "t02",
+      "method": "decision",
+      "repeat": 3,
+      "label": null,
+      "probability": 0.89,
+      "latencyMs": 366,
+      "costUsd": 0.00001995,
+      "raw": "{\"qualifies\":{\"type\":\"noul\",\"noul\":0.89}}"
+    },
+    {
+      "ticketId": "t03",
+      "method": "decision",
+      "repeat": 3,
+      "label": null,
+      "probability": 0.04,
+      "latencyMs": 327,
+      "costUsd": 0.000020076,
+      "raw": "{\"qualifies\":{\"type\":\"noul\",\"noul\":0.04}}"
+    },
+    {
+      "ticketId": "x12",
+      "method": "chat-json",
+      "repeat": 2,
+      "label": "handoff",
+      "probability": null,
+      "latencyMs": 1373,
+      "costUsd": 0.0000442,
+      "raw": "{\"decision\": \"handoff\"}"
+    },
+    {
+      "ticketId": "x09",
+      "method": "chat-json",
+      "repeat": 2,
+      "label": "handoff",
+      "probability": null,
+      "latencyMs": 3278,
+      "costUsd": 0.0002556,
+      "raw": "{\"decision\": \"handoff\"}"
+    },
+    {
+      "ticketId": "t04",
+      "method": "decision",
+      "repeat": 3,
+      "label": null,
+      "probability": 0.9,
+      "latencyMs": 297,
+      "costUsd": 0.00001995,
+      "raw": "{\"qualifies\":{\"type\":\"noul\",\"noul\":0.9}}"
+    },
+    {
+      "ticketId": "t01",
+      "method": "chat-json",
+      "repeat": 3,
+      "label": "refund",
+      "probability": null,
+      "latencyMs": 1593,
+      "costUsd": 0.0001027,
+      "raw": "{\"decision\": \"refund\"}"
+    },
+    {
+      "ticketId": "t05",
+      "method": "decision",
+      "repeat": 3,
+      "label": null,
+      "probability": 0.04,
+      "latencyMs": 433,
+      "costUsd": 0.000019572,
+      "raw": "{\"qualifies\":{\"type\":\"noul\",\"noul\":0.04}}"
+    },
+    {
+      "ticketId": "t02",
+      "method": "chat-json",
+      "repeat": 3,
+      "label": "refund",
+      "probability": null,
+      "latencyMs": 1626,
+      "costUsd": 0.0000982,
+      "raw": "{\"decision\": \"refund\"}"
+    },
+    {
+      "ticketId": "t06",
+      "method": "decision",
+      "repeat": 3,
+      "label": null,
+      "probability": 0.92,
+      "latencyMs": 376,
+      "costUsd": 0.000019782,
+      "raw": "{\"qualifies\":{\"type\":\"noul\",\"noul\":0.92}}"
+    },
+    {
+      "ticketId": "t07",
+      "method": "decision",
+      "repeat": 3,
+      "label": null,
+      "probability": 0.9,
+      "latencyMs": 271,
+      "costUsd": 0.000020202,
+      "raw": "{\"qualifies\":{\"type\":\"noul\",\"noul\":0.9}}"
+    },
+    {
+      "ticketId": "t04",
+      "method": "chat-json",
+      "repeat": 3,
+      "label": "refund",
+      "probability": null,
+      "latencyMs": 1607,
+      "costUsd": 0.0000905,
+      "raw": "{\"decision\": \"refund\"}"
+    },
+    {
+      "ticketId": "t08",
+      "method": "decision",
+      "repeat": 3,
+      "label": null,
+      "probability": 0.04,
+      "latencyMs": 368,
+      "costUsd": 0.000020076,
+      "raw": "{\"qualifies\":{\"type\":\"noul\",\"noul\":0.04}}"
+    },
+    {
+      "ticketId": "t06",
+      "method": "chat-json",
+      "repeat": 3,
+      "label": "refund",
+      "probability": null,
+      "latencyMs": 1458,
+      "costUsd": 0.0000833,
+      "raw": "{\"decision\": \"refund\"}"
+    },
+    {
+      "ticketId": "t07",
+      "method": "chat-json",
+      "repeat": 3,
+      "label": "refund",
+      "probability": null,
+      "latencyMs": 1496,
+      "costUsd": 0.0000878,
+      "raw": "{\"decision\": \"refund\"}"
+    },
+    {
+      "ticketId": "t03",
+      "method": "chat-json",
+      "repeat": 3,
+      "label": "handoff",
+      "probability": null,
+      "latencyMs": 2888,
+      "costUsd": 0.0002297,
+      "raw": "{\"decision\": \"handoff\"}"
+    },
+    {
+      "ticketId": "t05",
+      "method": "chat-json",
+      "repeat": 3,
+      "label": "handoff",
+      "probability": null,
+      "latencyMs": 2284,
+      "costUsd": 0.0001714,
+      "raw": "{\"decision\": \"handoff\"}"
+    },
+    {
+      "ticketId": "t09",
+      "method": "decision",
+      "repeat": 3,
+      "label": null,
+      "probability": 0.82,
+      "latencyMs": 362,
+      "costUsd": 0.000019992,
+      "raw": "{\"qualifies\":{\"type\":\"noul\",\"noul\":0.82}}"
+    },
+    {
+      "ticketId": "t10",
+      "method": "decision",
+      "repeat": 3,
+      "label": null,
+      "probability": 0.04,
+      "latencyMs": 423,
+      "costUsd": 0.000019446,
+      "raw": "{\"qualifies\":{\"type\":\"noul\",\"noul\":0.04}}"
+    },
+    {
+      "ticketId": "t11",
+      "method": "decision",
+      "repeat": 3,
+      "label": null,
+      "probability": 0.93,
+      "latencyMs": 356,
+      "costUsd": 0.000019656,
+      "raw": "{\"qualifies\":{\"type\":\"noul\",\"noul\":0.93}}"
+    },
+    {
+      "ticketId": "t12",
+      "method": "decision",
+      "repeat": 3,
+      "label": null,
+      "probability": 0.05,
+      "latencyMs": 393,
+      "costUsd": 0.000020202,
+      "raw": "{\"qualifies\":{\"type\":\"noul\",\"noul\":0.05}}"
+    },
+    {
+      "ticketId": "t09",
+      "method": "chat-json",
+      "repeat": 3,
+      "label": "refund",
+      "probability": null,
+      "latencyMs": 1794,
+      "costUsd": 0.0001006,
+      "raw": "{\"decision\": \"refund\"}"
+    },
+    {
+      "ticketId": "t11",
+      "method": "chat-json",
+      "repeat": 3,
+      "label": "refund",
+      "probability": null,
+      "latencyMs": 1461,
+      "costUsd": 0.0000783,
+      "raw": "{\"decision\": \"refund\"}"
+    },
+    {
+      "ticketId": "t08",
+      "method": "chat-json",
+      "repeat": 3,
+      "label": "handoff",
+      "probability": null,
+      "latencyMs": 2525,
+      "costUsd": 0.0001892,
+      "raw": "{\"decision\": \"handoff\"}"
+    },
+    {
+      "ticketId": "t13",
+      "method": "decision",
+      "repeat": 3,
+      "label": null,
+      "probability": 0.04,
+      "latencyMs": 294,
+      "costUsd": 0.000019992,
+      "raw": "{\"qualifies\":{\"type\":\"noul\",\"noul\":0.04}}"
+    },
+    {
+      "ticketId": "t14",
+      "method": "decision",
+      "repeat": 3,
+      "label": null,
+      "probability": 0.81,
+      "latencyMs": 299,
+      "costUsd": 0.000020034,
+      "raw": "{\"qualifies\":{\"type\":\"noul\",\"noul\":0.81}}"
+    },
+    {
+      "ticketId": "t10",
+      "method": "chat-json",
+      "repeat": 3,
+      "label": "handoff",
+      "probability": null,
+      "latencyMs": 2025,
+      "costUsd": 0.00015,
+      "raw": "{\"decision\": \"handoff\"}"
+    },
+    {
+      "ticketId": "t15",
+      "method": "decision",
+      "repeat": 3,
+      "label": null,
+      "probability": 0.15,
+      "latencyMs": 285,
+      "costUsd": 0.000019446,
+      "raw": "{\"qualifies\":{\"type\":\"noul\",\"noul\":0.15}}"
+    },
+    {
+      "ticketId": "t16",
+      "method": "decision",
+      "repeat": 3,
+      "label": null,
+      "probability": 0.91,
+      "latencyMs": 281,
+      "costUsd": 0.00001974,
+      "raw": "{\"qualifies\":{\"type\":\"noul\",\"noul\":0.91}}"
+    },
+    {
+      "ticketId": "t12",
+      "method": "chat-json",
+      "repeat": 3,
+      "label": "handoff",
+      "probability": null,
+      "latencyMs": 2365,
+      "costUsd": 0.0001875,
+      "raw": "{\"decision\": \"handoff\"}"
+    },
+    {
+      "ticketId": "t17",
+      "method": "decision",
+      "repeat": 3,
+      "label": null,
+      "probability": 0.84,
+      "latencyMs": 317,
+      "costUsd": 0.000019908,
+      "raw": "{\"qualifies\":{\"type\":\"noul\",\"noul\":0.84}}"
+    },
+    {
+      "ticketId": "t15",
+      "method": "chat-json",
+      "repeat": 3,
+      "label": "handoff",
+      "probability": null,
+      "latencyMs": 1537,
+      "costUsd": 0.0000897,
+      "raw": "{\"decision\": \"handoff\"}"
+    },
+    {
+      "ticketId": "t14",
+      "method": "chat-json",
+      "repeat": 3,
+      "label": "refund",
+      "probability": null,
+      "latencyMs": 1753,
+      "costUsd": 0.0001203,
+      "raw": "{\"decision\": \"refund\"}"
+    },
+    {
+      "ticketId": "t13",
+      "method": "chat-json",
+      "repeat": 3,
+      "label": "handoff",
+      "probability": null,
+      "latencyMs": 2500,
+      "costUsd": 0.000193,
+      "raw": "{\"decision\": \"handoff\"}"
+    },
+    {
+      "ticketId": "t16",
+      "method": "chat-json",
+      "repeat": 3,
+      "label": "refund",
+      "probability": null,
+      "latencyMs": 1650,
+      "costUsd": 0.0000928,
+      "raw": "{\"decision\": \"refund\"}"
+    },
+    {
+      "ticketId": "t18",
+      "method": "decision",
+      "repeat": 3,
+      "label": null,
+      "probability": 0.04,
+      "latencyMs": 389,
+      "costUsd": 0.000020034,
+      "raw": "{\"qualifies\":{\"type\":\"noul\",\"noul\":0.04}}"
+    },
+    {
+      "ticketId": "t19",
+      "method": "decision",
+      "repeat": 3,
+      "label": null,
+      "probability": 0.04,
+      "latencyMs": 385,
+      "costUsd": 0.00001995,
+      "raw": "{\"qualifies\":{\"type\":\"noul\",\"noul\":0.04}}"
+    },
+    {
+      "ticketId": "t20",
+      "method": "decision",
+      "repeat": 3,
+      "label": null,
+      "probability": 0.18,
+      "latencyMs": 329,
+      "costUsd": 0.000019572,
+      "raw": "{\"qualifies\":{\"type\":\"noul\",\"noul\":0.18}}"
+    },
+    {
+      "ticketId": "t17",
+      "method": "chat-json",
+      "repeat": 3,
+      "label": "refund",
+      "probability": null,
+      "latencyMs": 1601,
+      "costUsd": 0.0000948,
+      "raw": "{\"decision\": \"refund\"}"
+    },
+    {
+      "ticketId": "t21",
+      "method": "decision",
+      "repeat": 3,
+      "label": null,
+      "probability": 0.86,
+      "latencyMs": 303,
+      "costUsd": 0.000019782,
+      "raw": "{\"qualifies\":{\"type\":\"noul\",\"noul\":0.86}}"
+    },
+    {
+      "ticketId": "t22",
+      "method": "decision",
+      "repeat": 3,
+      "label": null,
+      "probability": 0.04,
+      "latencyMs": 364,
+      "costUsd": 0.000019992,
+      "raw": "{\"qualifies\":{\"type\":\"noul\",\"noul\":0.04}}"
+    },
+    {
+      "ticketId": "t20",
+      "method": "chat-json",
+      "repeat": 3,
+      "label": "handoff",
+      "probability": null,
+      "latencyMs": 1622,
+      "costUsd": 0.0000914,
+      "raw": "{\"decision\": \"handoff\"}"
+    },
+    {
+      "ticketId": "t18",
+      "method": "chat-json",
+      "repeat": 3,
+      "label": "handoff",
+      "probability": null,
+      "latencyMs": 2135,
+      "costUsd": 0.0001587,
+      "raw": "{\"decision\": \"handoff\"}"
+    },
+    {
+      "ticketId": "t23",
+      "method": "decision",
+      "repeat": 3,
+      "label": null,
+      "probability": 0.03,
+      "latencyMs": 287,
+      "costUsd": 0.000020118,
+      "raw": "{\"qualifies\":{\"type\":\"noul\",\"noul\":0.03}}"
+    },
+    {
+      "ticketId": "t24",
+      "method": "decision",
+      "repeat": 3,
+      "label": null,
+      "probability": 0.04,
+      "latencyMs": 480,
+      "costUsd": 0.000020118,
+      "raw": "{\"qualifies\":{\"type\":\"noul\",\"noul\":0.04}}"
+    },
+    {
+      "ticketId": "t19",
+      "method": "chat-json",
+      "repeat": 3,
+      "label": "handoff",
+      "probability": null,
+      "latencyMs": 2805,
+      "costUsd": 0.0002063,
+      "raw": "{\"decision\": \"handoff\"}"
+    },
+    {
+      "ticketId": "t22",
+      "method": "chat-json",
+      "repeat": 3,
+      "label": "handoff",
+      "probability": null,
+      "latencyMs": 2271,
+      "costUsd": 0.0001607,
+      "raw": "{\"decision\": \"handoff\"}"
+    },
+    {
+      "ticketId": "t25",
+      "method": "decision",
+      "repeat": 3,
+      "label": null,
+      "probability": 0.04,
+      "latencyMs": 331,
+      "costUsd": 0.000019614,
+      "raw": "{\"qualifies\":{\"type\":\"noul\",\"noul\":0.04}}"
+    },
+    {
+      "ticketId": "t21",
+      "method": "chat-json",
+      "repeat": 3,
+      "label": "refund",
+      "probability": null,
+      "latencyMs": 2760,
+      "costUsd": 0.0001055,
+      "raw": "{\"decision\": \"refund\"}"
+    },
+    {
+      "ticketId": "t26",
+      "method": "decision",
+      "repeat": 3,
+      "label": null,
+      "probability": 0.04,
+      "latencyMs": 340,
+      "costUsd": 0.00001974,
+      "raw": "{\"qualifies\":{\"type\":\"noul\",\"noul\":0.04}}"
+    },
+    {
+      "ticketId": "t23",
+      "method": "chat-json",
+      "repeat": 3,
+      "label": "handoff",
+      "probability": null,
+      "latencyMs": 2362,
+      "costUsd": 0.0001655,
+      "raw": "{\"decision\": \"handoff\"}"
+    },
+    {
+      "ticketId": "t27",
+      "method": "decision",
+      "repeat": 3,
+      "label": null,
+      "probability": 0.9,
+      "latencyMs": 284,
+      "costUsd": 0.000019782,
+      "raw": "{\"qualifies\":{\"type\":\"noul\",\"noul\":0.9}}"
+    },
+    {
+      "ticketId": "t28",
+      "method": "decision",
+      "repeat": 3,
+      "label": null,
+      "probability": 0.04,
+      "latencyMs": 304,
+      "costUsd": 0.000019908,
+      "raw": "{\"qualifies\":{\"type\":\"noul\",\"noul\":0.04}}"
+    },
+    {
+      "ticketId": "t24",
+      "method": "chat-json",
+      "repeat": 3,
+      "label": "handoff",
+      "probability": null,
+      "latencyMs": 2099,
+      "costUsd": 0.0001544,
+      "raw": "{\"decision\": \"handoff\"}"
+    },
+    {
+      "ticketId": "t29",
+      "method": "decision",
+      "repeat": 3,
+      "label": null,
+      "probability": 0.91,
+      "latencyMs": 323,
+      "costUsd": 0.000020244,
+      "raw": "{\"qualifies\":{\"type\":\"noul\",\"noul\":0.91}}"
+    },
+    {
+      "ticketId": "t25",
+      "method": "chat-json",
+      "repeat": 3,
+      "label": "handoff",
+      "probability": null,
+      "latencyMs": 2019,
+      "costUsd": 0.0001497,
+      "raw": "{\"decision\": \"handoff\"}"
+    },
+    {
+      "ticketId": "t26",
+      "method": "chat-json",
+      "repeat": 3,
+      "label": "handoff",
+      "probability": null,
+      "latencyMs": 1824,
+      "costUsd": 0.0001265,
+      "raw": "{\"decision\": \"handoff\"}"
+    },
+    {
+      "ticketId": "t27",
+      "method": "chat-json",
+      "repeat": 3,
+      "label": "refund",
+      "probability": null,
+      "latencyMs": 1611,
+      "costUsd": 0.0000915,
+      "raw": "{\"decision\": \"refund\"}"
+    },
+    {
+      "ticketId": "t30",
+      "method": "decision",
+      "repeat": 3,
+      "label": null,
+      "probability": 0.04,
+      "latencyMs": 399,
+      "costUsd": 0.000019488,
+      "raw": "{\"qualifies\":{\"type\":\"noul\",\"noul\":0.04}}"
+    },
+    {
+      "ticketId": "t31",
+      "method": "decision",
+      "repeat": 3,
+      "label": null,
+      "probability": 0.03,
+      "latencyMs": 399,
+      "costUsd": 0.000019866,
+      "raw": "{\"qualifies\":{\"type\":\"noul\",\"noul\":0.03}}"
+    },
+    {
+      "ticketId": "t29",
+      "method": "chat-json",
+      "repeat": 3,
+      "label": "refund",
+      "probability": null,
+      "latencyMs": 1500,
+      "costUsd": 0.0000899,
+      "raw": "{\"decision\": \"refund\"}"
+    },
+    {
+      "ticketId": "t32",
+      "method": "decision",
+      "repeat": 3,
+      "label": null,
+      "probability": 0.86,
+      "latencyMs": 412,
+      "costUsd": 0.00002016,
+      "raw": "{\"qualifies\":{\"type\":\"noul\",\"noul\":0.86}}"
+    },
+    {
+      "ticketId": "t28",
+      "method": "chat-json",
+      "repeat": 3,
+      "label": "handoff",
+      "probability": null,
+      "latencyMs": 2029,
+      "costUsd": 0.0001454,
+      "raw": "{\"decision\": \"handoff\"}"
+    },
+    {
+      "ticketId": "t33",
+      "method": "decision",
+      "repeat": 3,
+      "label": null,
+      "probability": 0.02,
+      "latencyMs": 292,
+      "costUsd": 0.000020034,
+      "raw": "{\"qualifies\":{\"type\":\"noul\",\"noul\":0.02}}"
+    },
+    {
+      "ticketId": "t34",
+      "method": "decision",
+      "repeat": 3,
+      "label": null,
+      "probability": 0.04,
+      "latencyMs": 492,
+      "costUsd": 0.000020328,
+      "raw": "{\"qualifies\":{\"type\":\"noul\",\"noul\":0.04}}"
+    },
+    {
+      "ticketId": "t32",
+      "method": "chat-json",
+      "repeat": 3,
+      "label": "refund",
+      "probability": null,
+      "latencyMs": 1546,
+      "costUsd": 0.0000919,
+      "raw": "{\"decision\": \"refund\"}"
+    },
+    {
+      "ticketId": "t30",
+      "method": "chat-json",
+      "repeat": 3,
+      "label": "handoff",
+      "probability": null,
+      "latencyMs": 2283,
+      "costUsd": 0.0001428,
+      "raw": "{\"decision\": \"handoff\"}"
+    },
+    {
+      "ticketId": "t35",
+      "method": "decision",
+      "repeat": 3,
+      "label": null,
+      "probability": 0.17,
+      "latencyMs": 310,
+      "costUsd": 0.000019446,
+      "raw": "{\"qualifies\":{\"type\":\"noul\",\"noul\":0.17}}"
+    },
+    {
+      "ticketId": "t31",
+      "method": "chat-json",
+      "repeat": 3,
+      "label": "handoff",
+      "probability": null,
+      "latencyMs": 2377,
+      "costUsd": 0.0001715,
+      "raw": "{\"decision\": \"handoff\"}"
+    },
+    {
+      "ticketId": "t36",
+      "method": "decision",
+      "repeat": 3,
+      "label": null,
+      "probability": 0.93,
+      "latencyMs": 278,
+      "costUsd": 0.000019824,
+      "raw": "{\"qualifies\":{\"type\":\"noul\",\"noul\":0.93}}"
+    },
+    {
+      "ticketId": "t37",
+      "method": "decision",
+      "repeat": 3,
+      "label": null,
+      "probability": 0.04,
+      "latencyMs": 285,
+      "costUsd": 0.000020202,
+      "raw": "{\"qualifies\":{\"type\":\"noul\",\"noul\":0.04}}"
+    },
+    {
+      "ticketId": "t35",
+      "method": "chat-json",
+      "repeat": 3,
+      "label": "handoff",
+      "probability": null,
+      "latencyMs": 1471,
+      "costUsd": 0.0000803,
+      "raw": "{\"decision\": \"handoff\"}"
+    },
+    {
+      "ticketId": "t33",
+      "method": "chat-json",
+      "repeat": 3,
+      "label": "handoff",
+      "probability": null,
+      "latencyMs": 2490,
+      "costUsd": 0.0001407,
+      "raw": "{\"decision\": \"handoff\"}"
+    },
+    {
+      "ticketId": "t36",
+      "method": "chat-json",
+      "repeat": 3,
+      "label": "refund",
+      "probability": null,
+      "latencyMs": 1449,
+      "costUsd": 0.000081,
+      "raw": "{\"decision\": \"refund\"}"
+    },
+    {
+      "ticketId": "t34",
+      "method": "chat-json",
+      "repeat": 3,
+      "label": "handoff",
+      "probability": null,
+      "latencyMs": 2489,
+      "costUsd": 0.0001856,
+      "raw": "{\"decision\": \"handoff\"}"
+    },
+    {
+      "ticketId": "t38",
+      "method": "decision",
+      "repeat": 3,
+      "label": null,
+      "probability": 0.04,
+      "latencyMs": 344,
+      "costUsd": 0.00002016,
+      "raw": "{\"qualifies\":{\"type\":\"noul\",\"noul\":0.04}}"
+    },
+    {
+      "ticketId": "t39",
+      "method": "decision",
+      "repeat": 3,
+      "label": null,
+      "probability": 0.04,
+      "latencyMs": 303,
+      "costUsd": 0.000020202,
+      "raw": "{\"qualifies\":{\"type\":\"noul\",\"noul\":0.04}}"
+    },
+    {
+      "ticketId": "t40",
+      "method": "decision",
+      "repeat": 3,
+      "label": null,
+      "probability": 0.17,
+      "latencyMs": 308,
+      "costUsd": 0.000019488,
+      "raw": "{\"qualifies\":{\"type\":\"noul\",\"noul\":0.17}}"
+    },
+    {
+      "ticketId": "t41",
+      "method": "decision",
+      "repeat": 3,
+      "label": null,
+      "probability": 0.04,
+      "latencyMs": 317,
+      "costUsd": 0.000019782,
+      "raw": "{\"qualifies\":{\"type\":\"noul\",\"noul\":0.04}}"
+    },
+    {
+      "ticketId": "t37",
+      "method": "chat-json",
+      "repeat": 3,
+      "label": "handoff",
+      "probability": null,
+      "latencyMs": 2238,
+      "costUsd": 0.0001655,
+      "raw": "{\"decision\": \"handoff\"}"
+    },
+    {
+      "ticketId": "t42",
+      "method": "decision",
+      "repeat": 3,
+      "label": null,
+      "probability": 0.03,
+      "latencyMs": 278,
+      "costUsd": 0.00001995,
+      "raw": "{\"qualifies\":{\"type\":\"noul\",\"noul\":0.03}}"
+    },
+    {
+      "ticketId": "t38",
+      "method": "chat-json",
+      "repeat": 3,
+      "label": "handoff",
+      "probability": null,
+      "latencyMs": 2242,
+      "costUsd": 0.0001697,
+      "raw": "{\"decision\": \"handoff\"}"
+    },
+    {
+      "ticketId": "t40",
+      "method": "chat-json",
+      "repeat": 3,
+      "label": "handoff",
+      "probability": null,
+      "latencyMs": 1614,
+      "costUsd": 0.0000835,
+      "raw": "{\"decision\": \"handoff\"}"
+    },
+    {
+      "ticketId": "t39",
+      "method": "chat-json",
+      "repeat": 3,
+      "label": "handoff",
+      "probability": null,
+      "latencyMs": 1993,
+      "costUsd": 0.0001548,
+      "raw": "{\"decision\": \"handoff\"}"
+    },
+    {
+      "ticketId": "t43",
+      "method": "decision",
+      "repeat": 3,
+      "label": null,
+      "probability": 0.04,
+      "latencyMs": 284,
+      "costUsd": 0.000019992,
+      "raw": "{\"qualifies\":{\"type\":\"noul\",\"noul\":0.04}}"
+    },
+    {
+      "ticketId": "t44",
+      "method": "decision",
+      "repeat": 3,
+      "label": null,
+      "probability": 0.82,
+      "latencyMs": 284,
+      "costUsd": 0.000020076,
+      "raw": "{\"qualifies\":{\"type\":\"noul\",\"noul\":0.82}}"
+    },
+    {
+      "ticketId": "t45",
+      "method": "decision",
+      "repeat": 3,
+      "label": null,
+      "probability": 0.18,
+      "latencyMs": 299,
+      "costUsd": 0.00001953,
+      "raw": "{\"qualifies\":{\"type\":\"noul\",\"noul\":0.18}}"
+    },
+    {
+      "ticketId": "t41",
+      "method": "chat-json",
+      "repeat": 3,
+      "label": "handoff",
+      "probability": null,
+      "latencyMs": 2301,
+      "costUsd": 0.000155,
+      "raw": "{\"decision\": \"handoff\"}"
+    },
+    {
+      "ticketId": "t42",
+      "method": "chat-json",
+      "repeat": 3,
+      "label": "handoff",
+      "probability": null,
+      "latencyMs": 2052,
+      "costUsd": 0.0001674,
+      "raw": "{\"decision\": \"handoff\"}"
+    },
+    {
+      "ticketId": "t46",
+      "method": "decision",
+      "repeat": 3,
+      "label": null,
+      "probability": 0.93,
+      "latencyMs": 281,
+      "costUsd": 0.00001974,
+      "raw": "{\"qualifies\":{\"type\":\"noul\",\"noul\":0.93}}"
+    },
+    {
+      "ticketId": "t47",
+      "method": "decision",
+      "repeat": 3,
+      "label": null,
+      "probability": 0.83,
+      "latencyMs": 299,
+      "costUsd": 0.000019824,
+      "raw": "{\"qualifies\":{\"type\":\"noul\",\"noul\":0.83}}"
+    },
+    {
+      "ticketId": "t45",
+      "method": "chat-json",
+      "repeat": 3,
+      "label": "handoff",
+      "probability": null,
+      "latencyMs": 1560,
+      "costUsd": 0.0000883,
+      "raw": "{\"decision\": \"handoff\"}"
+    },
+    {
+      "ticketId": "t44",
+      "method": "chat-json",
+      "repeat": 3,
+      "label": "refund",
+      "probability": null,
+      "latencyMs": 1922,
+      "costUsd": 0.0001319,
+      "raw": "{\"decision\": \"refund\"}"
+    },
+    {
+      "ticketId": "t48",
+      "method": "decision",
+      "repeat": 3,
+      "label": null,
+      "probability": 0.03,
+      "latencyMs": 321,
+      "costUsd": 0.000019992,
+      "raw": "{\"qualifies\":{\"type\":\"noul\",\"noul\":0.03}}"
+    },
+    {
+      "ticketId": "t46",
+      "method": "chat-json",
+      "repeat": 3,
+      "label": "refund",
+      "probability": null,
+      "latencyMs": 1600,
+      "costUsd": 0.000094,
+      "raw": "{\"decision\": \"refund\"}"
+    },
+    {
+      "ticketId": "x01",
+      "method": "decision",
+      "repeat": 3,
+      "label": null,
+      "probability": 0.81,
+      "latencyMs": 352,
+      "costUsd": 0.000020034,
+      "raw": "{\"qualifies\":{\"type\":\"noul\",\"noul\":0.81}}"
+    },
+    {
+      "ticketId": "t43",
+      "method": "chat-json",
+      "repeat": 3,
+      "label": "handoff",
+      "probability": null,
+      "latencyMs": 2787,
+      "costUsd": 0.0001941,
+      "raw": "{\"decision\": \"handoff\"}"
+    },
+    {
+      "ticketId": "x02",
+      "method": "decision",
+      "repeat": 3,
+      "label": null,
+      "probability": 0.05,
+      "latencyMs": 296,
+      "costUsd": 0.00001953,
+      "raw": "{\"qualifies\":{\"type\":\"noul\",\"noul\":0.05}}"
+    },
+    {
+      "ticketId": "t47",
+      "method": "chat-json",
+      "repeat": 3,
+      "label": "refund",
+      "probability": null,
+      "latencyMs": 1741,
+      "costUsd": 0.0001095,
+      "raw": "{\"decision\": \"refund\"}"
+    },
+    {
+      "ticketId": "t48",
+      "method": "chat-json",
+      "repeat": 3,
+      "label": "handoff",
+      "probability": null,
+      "latencyMs": 1578,
+      "costUsd": 0.0000446,
+      "raw": "{\"decision\": \"handoff\"}"
+    },
+    {
+      "ticketId": "x03",
+      "method": "decision",
+      "repeat": 3,
+      "label": null,
+      "probability": 0.08,
+      "latencyMs": 339,
+      "costUsd": 0.000019614,
+      "raw": "{\"qualifies\":{\"type\":\"noul\",\"noul\":0.08}}"
+    },
+    {
+      "ticketId": "x04",
+      "method": "decision",
+      "repeat": 3,
+      "label": null,
+      "probability": 0.89,
+      "latencyMs": 313,
+      "costUsd": 0.000019782,
+      "raw": "{\"qualifies\":{\"type\":\"noul\",\"noul\":0.89}}"
+    },
+    {
+      "ticketId": "x01",
+      "method": "chat-json",
+      "repeat": 3,
+      "label": "refund",
+      "probability": null,
+      "latencyMs": 1546,
+      "costUsd": 0.0000945,
+      "raw": "{\"decision\": \"refund\"}"
+    },
+    {
+      "ticketId": "x02",
+      "method": "chat-json",
+      "repeat": 3,
+      "label": "handoff",
+      "probability": null,
+      "latencyMs": 1377,
+      "costUsd": 0.0000653,
+      "raw": "{\"decision\": \"handoff\"}"
+    },
+    {
+      "ticketId": "x05",
+      "method": "decision",
+      "repeat": 3,
+      "label": null,
+      "probability": 0.36,
+      "latencyMs": 419,
+      "costUsd": 0.000019908,
+      "raw": "{\"qualifies\":{\"type\":\"noul\",\"noul\":0.36}}"
+    },
+    {
+      "ticketId": "x06",
+      "method": "decision",
+      "repeat": 3,
+      "label": null,
+      "probability": 0.05,
+      "latencyMs": 425,
+      "costUsd": 0.000019488,
+      "raw": "{\"qualifies\":{\"type\":\"noul\",\"noul\":0.05}}"
+    },
+    {
+      "ticketId": "x07",
+      "method": "decision",
+      "repeat": 3,
+      "label": null,
+      "probability": 0.03,
+      "latencyMs": 336,
+      "costUsd": 0.000020076,
+      "raw": "{\"qualifies\":{\"type\":\"noul\",\"noul\":0.03}}"
+    },
+    {
+      "ticketId": "x06",
+      "method": "chat-json",
+      "repeat": 3,
+      "label": "handoff",
+      "probability": null,
+      "latencyMs": 1116,
+      "costUsd": 0.0000425,
+      "raw": "{\"decision\": \"handoff\"}"
+    },
+    {
+      "ticketId": "x04",
+      "method": "chat-json",
+      "repeat": 3,
+      "label": "refund",
+      "probability": null,
+      "latencyMs": 1961,
+      "costUsd": 0.0001434,
+      "raw": "{\"decision\": \"refund\"}"
+    },
+    {
+      "ticketId": "x03",
+      "method": "chat-json",
+      "repeat": 3,
+      "label": "handoff",
+      "probability": null,
+      "latencyMs": 2231,
+      "costUsd": 0.0001606,
+      "raw": "{\"decision\": \"handoff\"}"
+    },
+    {
+      "ticketId": "x08",
+      "method": "decision",
+      "repeat": 3,
+      "label": null,
+      "probability": 0.71,
+      "latencyMs": 343,
+      "costUsd": 0.000019866,
+      "raw": "{\"qualifies\":{\"type\":\"noul\",\"noul\":0.71}}"
+    },
+    {
+      "ticketId": "x09",
+      "method": "decision",
+      "repeat": 3,
+      "label": null,
+      "probability": 0.74,
+      "latencyMs": 411,
+      "costUsd": 0.00001974,
+      "raw": "{\"qualifies\":{\"type\":\"noul\",\"noul\":0.74}}"
+    },
+    {
+      "ticketId": "x10",
+      "method": "decision",
+      "repeat": 3,
+      "label": null,
+      "probability": 0.08,
+      "latencyMs": 495,
+      "costUsd": 0.000019446,
+      "raw": "{\"qualifies\":{\"type\":\"noul\",\"noul\":0.08}}"
+    },
+    {
+      "ticketId": "x05",
+      "method": "chat-json",
+      "repeat": 3,
+      "label": "handoff",
+      "probability": null,
+      "latencyMs": 2904,
+      "costUsd": 0.0002279,
+      "raw": "{\"decision\": \"handoff\"}"
+    },
+    {
+      "ticketId": "x11",
+      "method": "decision",
+      "repeat": 3,
+      "label": null,
+      "probability": 0.05,
+      "latencyMs": 381,
+      "costUsd": 0.00001995,
+      "raw": "{\"qualifies\":{\"type\":\"noul\",\"noul\":0.05}}"
+    },
+    {
+      "ticketId": "x07",
+      "method": "chat-json",
+      "repeat": 3,
+      "label": "handoff",
+      "probability": null,
+      "latencyMs": 2763,
+      "costUsd": 0.0002118,
+      "raw": "{\"decision\": \"handoff\"}"
+    },
+    {
+      "ticketId": "x08",
+      "method": "chat-json",
+      "repeat": 3,
+      "label": "refund",
+      "probability": null,
+      "latencyMs": 2056,
+      "costUsd": 0.0001582,
+      "raw": "{\"decision\": \"refund\"}"
+    },
+    {
+      "ticketId": "x10",
+      "method": "chat-json",
+      "repeat": 3,
+      "label": "handoff",
+      "probability": null,
+      "latencyMs": 1643,
+      "costUsd": 0.0000886,
+      "raw": "{\"decision\": \"handoff\"}"
+    },
+    {
+      "ticketId": "x12",
+      "method": "decision",
+      "repeat": 3,
+      "label": null,
+      "probability": 0.03,
+      "latencyMs": 375,
+      "costUsd": 0.000019656,
+      "raw": "{\"qualifies\":{\"type\":\"noul\",\"noul\":0.03}}"
+    },
+    {
+      "ticketId": "x12",
+      "method": "chat-json",
+      "repeat": 3,
+      "label": "handoff",
+      "probability": null,
+      "latencyMs": 1158,
+      "costUsd": 0.0000442,
+      "raw": "{\"decision\": \"handoff\"}"
+    },
+    {
+      "ticketId": "x09",
+      "method": "chat-json",
+      "repeat": 3,
+      "label": "handoff",
+      "probability": null,
+      "latencyMs": 2799,
+      "costUsd": 0.0002291,
+      "raw": "{\"decision\": \"handoff\"}"
+    },
+    {
+      "ticketId": "x11",
+      "method": "chat-json",
+      "repeat": 3,
+      "label": "handoff",
+      "probability": null,
+      "latencyMs": 2479,
+      "costUsd": 0.0001533,
+      "raw": "{\"decision\": \"handoff\"}"
+    }
+  ]
+}

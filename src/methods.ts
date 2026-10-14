@@ -5,9 +5,9 @@ export const DECISION_MODEL = 'typesafe/jev-1.13';
 
 export type Call = {
   ticketId: string;
-  method: 'chat-json' | 'decision';
+  method: 'chat-json' | 'chat-schema' | 'decision';
   repeat: number;
-  /** chat-json: the parsed label, or null when the reply was not valid JSON. */
+  /** chat-json / chat-schema: the parsed label, or null when the reply was not valid JSON. */
   label: Label | null;
   /** decision: probability that the customer qualifies. */
   probability: number | null;
@@ -37,11 +37,27 @@ async function post(url: string, apiKey: string, body: unknown) {
   return { json, latencyMs };
 }
 
-export async function askChat(ticket: Ticket, repeat: number, apiKey: string): Promise<Call> {
+const DECISION_SCHEMA = {
+  type: 'json_schema',
+  json_schema: {
+    name: 'refund_decision',
+    strict: true,
+    schema: {
+      type: 'object',
+      properties: { decision: { type: 'string', enum: ['refund', 'handoff'] } },
+      required: ['decision'],
+      additionalProperties: false,
+    },
+  },
+};
+
+/** schema: true adds a strict JSON schema with an enum, so the reply can only be one of the two labels. */
+export async function askChat(ticket: Ticket, repeat: number, apiKey: string, schema = false): Promise<Call> {
   const { json, latencyMs } = await post('https://openrouter.ai/api/v1/chat/completions', apiKey, {
     model: CHAT_MODEL,
     usage: { include: true },
     max_tokens: 1024,
+    ...(schema ? { response_format: DECISION_SCHEMA, provider: { require_parameters: true } } : {}),
     messages: [
       {
         role: 'system',
@@ -58,7 +74,7 @@ export async function askChat(ticket: Ticket, repeat: number, apiKey: string): P
   } catch {
     label = null;
   }
-  return { ticketId: ticket.id, method: 'chat-json', repeat, label, probability: null, latencyMs, costUsd: Number(json.usage?.cost ?? 0), raw };
+  return { ticketId: ticket.id, method: schema ? 'chat-schema' : 'chat-json', repeat, label, probability: null, latencyMs, costUsd: Number(json.usage?.cost ?? 0), raw };
 }
 
 export async function askDecision(ticket: Ticket, repeat: number, apiKey: string): Promise<Call> {
