@@ -1,0 +1,20 @@
+{
+  "name": "decision-bench",
+  "private": true,
+  "version": "0.1.0",
+  "description": "The same refund decision asked two ways: a chat model returning JSON vs a decision model returning a probability.",
+  "type": "module",
+  "engines": {
+    "node": ">=22.18"
+  },
+  "scripts": {
+    "run:live": "node src/run.ts",
+    "report": "node src/report.ts",
+    "test": "node --test test/*.test.ts",
+    "typecheck": "tsc -p tsconfig.json --noEmit"
+  },
+  "devDependencies": {
+    "@types/node": "^24.3.0",
+    "typescript": "^5.7.0"
+  }
+}
